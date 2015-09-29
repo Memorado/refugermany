@@ -14,7 +14,7 @@
         },
         {
           "title": "Really, Welcome to Germany!",
-          "content": "<b> Welcome! </b> <p> Schön daß du da bist! </p>"
+          "content": "<b> Welcome! </b> <p> Schön daß du da bist! <a href='http://www.memorado.com/html/'>Memorado</a></p>"
         }
       ]
     },
@@ -24,11 +24,11 @@
       "articles": [
         {
           "title": "Find an apartment in Mitte",
-          "content": "<b> Welcome! </b> <p> Schön daß du da bist! </p>"
+          "content": "<b> Welcome! </b> <p> Schön daß du da bist! <a href='http://www.memorado.com/html/'>Memorado</a></p>"
         },
         {
           "title": "Find an apartment in Prenzl Berg",
-          "content": "<b> Welcome! </b> <p> Schön daß du da bist! </p>"
+          "content": "<b> Welcome! </b> <p> Schön daß du da bist! <a href='http://www.memorado.com/html/'>Memorado</a></p>"
         }
       ]
     },
@@ -38,7 +38,7 @@
       "articles": [
         {
           "title": "Interview Tips",
-          "content": "<b> Welcome! </b> <p> Schön daß du da bist! </p>"
+          "content": "<b> Welcome! </b> <p> Schön daß du da bist! <a href='http://www.memorado.com/html/'>Memorado</a></p>"
         }
       ]
     }
