@@ -19,6 +19,10 @@ namespace WelcomeGuide
 		public void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
 			Category selectedCategory = ((CategoryViewModel)e.SelectedItem).Category;
+
+			//probably should not display category at all, but now its better this than crash
+			if (selectedCategory.Articles.Count == 0) return; 
+				
 			ContentPage nextPage;
 			if (selectedCategory.Articles.Count > 1) {
 				nextPage = new ArticleListPage () { ViewModel = new ArticleListViewModel () { Category = selectedCategory } };

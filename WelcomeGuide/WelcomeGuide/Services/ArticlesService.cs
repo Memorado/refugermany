@@ -35,7 +35,7 @@ namespace WelcomeGuide
 			#endif
 
 			var assembly = typeof(ArticlesService).GetTypeInfo().Assembly;
-			Stream stream = assembly.GetManifestResourceStream (resourcePrefix + "articles.json");
+			Stream stream = assembly.GetManifestResourceStream (resourcePrefix + "categories.json");
 			StreamReader sr = new StreamReader (stream);
 			String contents = sr.ReadToEnd ();
 			this.Categories = parseJson (contents);
@@ -43,8 +43,8 @@ namespace WelcomeGuide
 
 		private List<Category> parseJson(String jsonContents)
 		{
-			var parsed = JsonConvert.DeserializeObject<CategoriesResponse> (jsonContents);
-			return parsed.Categories;
+			var parsed = JsonConvert.DeserializeObject<List<Category>> (jsonContents);
+			return parsed;
 		}
 
 	}
