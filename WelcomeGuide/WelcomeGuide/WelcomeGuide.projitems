@@ -35,10 +35,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\Network\CategoriesResponse.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\articles.json">
-      <DeployService-Deploy>True</DeployService-Deploy>
-      <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
-    </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -50,6 +46,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Onboarding\WelcomePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\categories.json">
+      <DeployService-Deploy>True</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

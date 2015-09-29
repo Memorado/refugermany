@@ -1,0 +1,114 @@
+﻿[
+  {
+    "position": 0,
+    "name": "Welcome!",
+    "language": "English",
+    "articles": []
+  },
+  {
+    "position": 2,
+    "name": "Living in Berlin",
+    "language": "English",
+    "articles": []
+  },
+  {
+    "position": 3,
+    "name": "Opening a bank account",
+    "language": "English",
+    "articles": []
+  },
+  {
+    "position": 5,
+    "name": "Learning German",
+    "language": "English",
+    "articles": []
+  },
+  {
+    "position": 6,
+    "name": "Working in Germany",
+    "language": "English",
+    "articles": [
+      {
+        "category": "Working in Germany",
+        "title": "As Asylum Applicant",
+        "content": "<p>In general it is not allowed for refugees to work the first three months of their stay.</p>\r\n",
+        "language": "English",
+        "locations": [
+          {
+            "name": "Munich",
+            "language": "English"
+          },
+          {
+            "name": "Hamburg",
+            "language": "English"
+          },
+          {
+            "name": "Cologne",
+            "language": "English"
+          },
+          {
+            "name": "Berlin",
+            "language": "English"
+          }
+        ],
+        "keywords": ""
+      }
+    ]
+  },
+  {
+    "position": 8,
+    "name": "School and kindergarten",
+    "language": "English",
+    "articles": []
+  },
+  {
+    "position": 7,
+    "name": "Health",
+    "language": "English",
+    "articles": []
+  },
+  {
+    "position": 9,
+    "name": "Culture",
+    "language": "English",
+    "articles": []
+  },
+  {
+    "position": 1,
+    "name": "Asylum procedure",
+    "language": "English",
+    "articles": [
+      {
+        "category": "Asylum procedure",
+        "title": "1 Arrival in Germany",
+        "content": "<ul>\r\n\t<li>\r\n\t<p>Contact a police station immediately when arriving&nbsp;in Germany</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You will be registered with your personal data and&nbsp;your country of origin</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You will be referred to one of the 16 federal states within Germany</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You receive a certificate of registration as an asylum seeker&nbsp;(&ldquo;B&Uuml;MA&rdquo;). Please carry this&nbsp;with you at all times.</p>\r\n\t</li>\r\n</ul>\r\n",
+        "language": "English",
+        "locations": [
+          {
+            "name": "Munich",
+            "language": "English"
+          },
+          {
+            "name": "Hamburg",
+            "language": "English"
+          },
+          {
+            "name": "Cologne",
+            "language": "English"
+          },
+          {
+            "name": "Berlin",
+            "language": "English"
+          }
+        ],
+        "keywords": ""
+      }
+    ]
+  },
+  {
+    "position": 4,
+    "name": "Transportation",
+    "language": "English",
+    "articles": []
+  }
+]

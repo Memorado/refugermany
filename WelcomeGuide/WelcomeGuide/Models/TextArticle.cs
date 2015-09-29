@@ -6,6 +6,7 @@ namespace WelcomeGuide
 	{
 		public String Title { get; set; }
 		public String Content { get; set; }
+		public String Keywords { get; set; }
 
 		public TextArticle ()
 		{
