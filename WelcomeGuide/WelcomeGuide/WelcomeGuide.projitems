@@ -24,6 +24,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ArticleViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ArticleListViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\CategoryListViewModel.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ArticlesService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\CategoriesResponse.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)CategoryListPage.xaml">
@@ -32,9 +34,15 @@
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)ArticleListPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\articles.json">
+      <DeployService-Deploy>True</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Services\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
   </ItemGroup>
 </Project>

@@ -7,12 +7,13 @@ namespace WelcomeGuide
 {
 	public partial class CategoryListPage : ContentPage
 	{
-		public CategoryListViewModel viewModel = new CategoryListViewModel();
+		private CategoryListViewModel _viewModel;
 
 		public CategoryListPage ()
 		{
 			InitializeComponent ();
-			myListView.ItemsSource = viewModel.categories;
+			_viewModel = new CategoryListViewModel (ArticlesService.instance.Categories);
+			myListView.ItemsSource = _viewModel.categories;
 		}
 
 		public void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)

@@ -5,7 +5,7 @@ namespace WelcomeGuide
 {
 	public class Category
 	{
-		public String Title { get; set; }
+		public String Name { get; set; }
 		public List<TextArticle> Articles { get; set; }
 
 		public Category ()

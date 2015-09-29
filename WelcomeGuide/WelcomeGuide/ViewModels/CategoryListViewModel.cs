@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace WelcomeGuide
 {
@@ -7,43 +8,9 @@ namespace WelcomeGuide
 	{
 		public List<CategoryViewModel> categories;
 
-		public CategoryListViewModel ()
+		public CategoryListViewModel (List<Category> categories)
 		{
-			categories = new List<CategoryViewModel> ();
-			categories.Add (
-				new CategoryViewModel { Category = new Category {
-						Title = "Welcome to Berlin", 
-						Articles = {
-							new TextArticle { 
-								Title = "Registering with the Police",
-								Content = "Article text here Article text here Article text here Article text here Article text here "
-							},
-							new TextArticle { 
-								Title = "Wait for the LaGeSo",
-								Content = "Article text here Article text here Article text here Article text here Article text here "
-							},
-							new TextArticle { 
-								Title = "Wait for the interview",
-								Content = "Article text here Article text here Article text here Article text here Article text here "
-							},
-						} 
-					}
-				}
-			);
-			categories.Add (
-				new CategoryViewModel { Category = new Category {
-						Title = "Find an appartment", 
-						Articles = {
-							new TextArticle { 
-								Title = "Article 1",
-								Content = "Article text here Article text here Article text here Article text here Article text here "
-							},
-						} 
-					}
-				}
-			);
-
-
+			this.categories = categories.Select (c => new CategoryViewModel (c)).ToList();
 		}
 	}
 }

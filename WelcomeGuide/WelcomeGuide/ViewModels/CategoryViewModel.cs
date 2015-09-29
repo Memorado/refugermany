@@ -6,7 +6,7 @@ namespace WelcomeGuide
 {
 	public class CategoryViewModel
 	{
-		public Category Category { get; set; }
+		public Category Category { get; private set; }
 
 		public String DetailText {
 			get {
@@ -16,12 +16,13 @@ namespace WelcomeGuide
 
 		public String Title {
 			get {
-				return Category.Title;
+				return Category.Name;
 			}
 		}
 
-		public CategoryViewModel ()
+		public CategoryViewModel (Category category)
 		{
+			this.Category = category;
 		}
 	}
 }
