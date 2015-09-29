@@ -16,15 +16,15 @@ namespace WelcomeGuide
 						Articles = {
 							new TextArticle { 
 								Title = "Registering with the Police",
-								Content = "Article text here Article text here Article text here Article text here Article text here "
+								Content = @"<html><body><h1>Xamarin.Forms</h1><p>Welcome to WebView. <a href=""http://www.w3schools.com/html/"">Visit our HTML tutorial</a></p></body></html>"
 							},
 							new TextArticle { 
 								Title = "Wait for the LaGeSo",
-								Content = "Article text here Article text here Article text here Article text here Article text here "
+								Content = @"<html><body><h1>Xamarin.Forms</h1><p>Welcome to WebView. <a href=""http://www.w3schools.com/html/"">Visit our HTML tutorial</a></p></body></html>"
 							},
 							new TextArticle { 
 								Title = "Wait for the interview",
-								Content = "Article text here Article text here Article text here Article text here Article text here "
+								Content = @"<html><body><h1>Xamarin.Forms</h1><p>Welcome to WebView. <a href=""http://www.w3schools.com/html/"">Visit our HTML tutorial</a></p></body></html>"
 							},
 						} 
 					}
