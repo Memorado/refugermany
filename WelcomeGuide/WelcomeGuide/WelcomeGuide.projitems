@@ -18,7 +18,6 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ArticleViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\ArticleListViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\CategoryListViewModel.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Services\ArticlesService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml.cs">
       <DependentUpon>ArticleListPage.xaml</DependentUpon>
     </Compile>
@@ -38,6 +37,7 @@
       <DependentUpon>SelectLanguagePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Models\Network\Language.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\CategoriesService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">

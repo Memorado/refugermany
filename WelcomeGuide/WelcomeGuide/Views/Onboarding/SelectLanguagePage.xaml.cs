@@ -30,7 +30,8 @@ namespace WelcomeGuide
 
 		void OnLanguageSelected(object sender, SelectedItemChangedEventArgs e) 
 		{
-			
+			CategoriesService.instance.Fetch ();
+			Navigation.PushAsync (new CategoryListPage ());
 		}
 	}
 }
