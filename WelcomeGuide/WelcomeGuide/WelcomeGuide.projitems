@@ -38,6 +38,7 @@
       <DependentUpon>SelectLanguagePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Models\Network\Language.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\CachingService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">

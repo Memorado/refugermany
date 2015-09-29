@@ -26,9 +26,11 @@ namespace WelcomeGuide
 
 		public LanguagesService ()
 		{
-			this.Languages = new List<Language> () {
-				new Language() { Name="English"}
-			};	
+			var cachedResponse = CachingService.instance.GetCache (CachedResponse.Languages);
+			if (cachedResponse == null) {
+				createDefaultCache ();
+			}
+			this.Languages = parseFromCache ();
 		}
 
 		public void Fetch() 
@@ -53,11 +55,31 @@ namespace WelcomeGuide
 					var jsonContents = streamReader.ReadToEnd ();
 					var languages = JsonConvert.DeserializeObject<List<Language>> (jsonContents);
 					this.Languages = languages;
+					CachingService.instance.PersistCache (CachedResponse.Languages, jsonContents);
 					if (OnLanguagesUpdated != null) {
 						OnLanguagesUpdated ();
 					}
 				}
 			}
+		}
+
+		private void createDefaultCache() 
+		{
+			var languages = new List<Language> () {
+				new Language () {
+					Name = "English",
+					Code = "default"
+				}
+			};
+
+			var json = JsonConvert.SerializeObject (languages);
+			CachingService.instance.PersistCache (CachedResponse.Languages, json);
+		}
+
+		private List<Language> parseFromCache()
+		{
+			var json = CachingService.instance.GetCache (CachedResponse.Languages);
+			return JsonConvert.DeserializeObject<List<Language>> (json);
 		}
 	}
 }
