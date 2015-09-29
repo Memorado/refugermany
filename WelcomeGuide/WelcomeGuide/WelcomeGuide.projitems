@@ -61,7 +61,4 @@
     <Folder Include="$(MSBuildThisFileDirectory)Views\Onboarding\" />
     <Folder Include="$(MSBuildThisFileDirectory)Models\Network\" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="$(MSBuildThisFileDirectory)Resources\welcome_image.png" />
-  </ItemGroup>
 </Project>

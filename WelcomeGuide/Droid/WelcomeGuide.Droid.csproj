@@ -84,6 +84,7 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
+    <AndroidResource Include="Resources\drawable\welcome_image.png" />
   </ItemGroup>
   <Import Project="..\WelcomeGuide\WelcomeGuide.projitems" Label="Shared" Condition="Exists('..\WelcomeGuide\WelcomeGuide.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
