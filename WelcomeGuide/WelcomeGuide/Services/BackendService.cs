@@ -35,6 +35,7 @@ namespace WelcomeGuide
 			HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create (new Uri (_baseUrl + _endpoint));
 			request.ContentType = "application/json";
 			request.Method = "GET";
+			request.Headers ["X-Language"] = SettingsService.instance.Language;
 
 			try {
 				using (WebResponse response = await request.GetResponseAsync ()) {
@@ -48,7 +49,7 @@ namespace WelcomeGuide
 						}
 					}
 				}
-			} catch (Exception e) {
+			} catch {
 				Console.WriteLine ("Couldn't retrieve Data for " + _endpoint);
 			}
 		}

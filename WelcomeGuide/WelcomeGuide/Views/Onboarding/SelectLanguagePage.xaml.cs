@@ -33,6 +33,12 @@ namespace WelcomeGuide
 			CategoriesService.instance.FetchDataAsync ();
 			var language = (Language)e.SelectedItem;
 			SettingsService.instance.Language = language.Code;
+			//
+			// TODO: Move it from here when we have Location 
+			SettingsService.instance.HasSeenOnboarding = true;
+			//
+			//
+
 			Navigation.PushAsync (new CategoryListPage ());
 		}
 	}

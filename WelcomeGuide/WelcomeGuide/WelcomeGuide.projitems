@@ -40,6 +40,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Services\CategoriesService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\CachingService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\BackendService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Settings.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">

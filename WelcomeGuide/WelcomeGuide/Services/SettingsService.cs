@@ -2,6 +2,7 @@
 using System.IO;
 using System.IO.IsolatedStorage;
 using System.Reflection;
+using Newtonsoft.Json;
 
 namespace WelcomeGuide
 {
@@ -19,63 +20,73 @@ namespace WelcomeGuide
 			}
 		}
 
+		private string settingsPath
+		{
+			get {
+				var documentsPath = Environment.GetFolderPath (Environment.SpecialFolder.Personal);
+				var filePath = Path.Combine (documentsPath, "ApplicationSettings");
+				return filePath;
+			}
+		}
+
 		private SettingsService ()
 		{
+			if (!File.Exists (settingsPath)) {
+				var defaultSettings = new Settings () {
+					HasSeenOnboarding = false,
+					Language = "English",
+					Location = "Berlin"
+				};
+				var defaultJson = JsonConvert.SerializeObject (defaultSettings);
+				File.WriteAllText (settingsPath, defaultJson);
+			}
 		}
 
-		public string GetSetting (string name)
+		public Settings GetSettings ()
 		{
-			string settingsPath = name + ".txt";
-			using (IsolatedStorageFile store = IsolatedStorageFile.GetStore (IsolatedStorageScope.User | IsolatedStorageScope.Assembly, null, null)) {
-				if (store.FileExists (settingsPath)) {
-					using (IsolatedStorageFileStream isoStream = new IsolatedStorageFileStream (settingsPath, FileMode.Open, store)) {
-						using (StreamReader reader = new StreamReader (isoStream)) {
-							return reader.ReadToEnd ();
-						}
-					}
-				}
-			}
-			return null;
+			var settingsJson = File.ReadAllText (settingsPath);
+			var settings = JsonConvert.DeserializeObject<Settings> (settingsJson);
+			return settings;
 		}
 
-		public void PersistSetting (string name, string setting)
+		public void PersistSettings (Settings settings)
 		{
-			string settingsPath = name + ".txt";
-			using (IsolatedStorageFile store = IsolatedStorageFile.GetStore (IsolatedStorageScope.User | IsolatedStorageScope.Assembly, null, null)) {
-				using (IsolatedStorageFileStream isoStream = store.CreateFile (settingsPath)) {
-					using (StreamWriter writer = new StreamWriter (isoStream)) {
-						writer.WriteLine (setting.ToString ());
-					}
-				}  
-			}
+			var settingsJson = JsonConvert.SerializeObject (settings);
+			File.WriteAllText (settingsPath, settingsJson);
 		}
 
 		// Convenience Methods
 		//
 		public bool HasSeenOnboarding {
 			get {
-				return GetSetting ("HasSeenOnboarding") == "true";
+				return GetSettings ().HasSeenOnboarding;
 			} 
 			set {
-				PersistSetting ("HasSeenOnboarding", "true");
+				var settings = GetSettings();
+				settings.HasSeenOnboarding = value;
+				PersistSettings(settings);
 			}
 		}
 
 		public string Language {
 			get {
-				return GetSetting ("Language");
+				return GetSettings ().Language;
 			} 
 			set {
-				PersistSetting ("Language", value);
+				var settings = GetSettings();
+				settings.Language = value;
+				PersistSettings(settings);
 			}
 		}
 
 		public string Location {
 			get {
-				return GetSetting ("Location");
+				return GetSettings ().Location;
 			}
 			set {
-				PersistSetting ("Location", value);
+				var settings = GetSettings();
+				settings.Location = value;
+				PersistSettings(settings);
 			}
 		}
 	}
