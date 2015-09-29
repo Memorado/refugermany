@@ -30,6 +30,7 @@ namespace WelcomeGuide
 
 		void OnLanguageSelected(object sender, SelectedItemChangedEventArgs e) 
 		{
+			CategoriesService.instance.Fetch ();
 			var language = (Language)e.SelectedItem;
 			SettingsService.instance.Language = language.Code;
 			Navigation.PushAsync (new CategoryListPage ());

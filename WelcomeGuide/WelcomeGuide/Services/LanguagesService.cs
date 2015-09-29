@@ -22,6 +22,7 @@ namespace WelcomeGuide
 		}
 
 		public List<Language> Languages;
+
 		public event Action OnLanguagesUpdated;
 
 		public LanguagesService ()
@@ -33,24 +34,22 @@ namespace WelcomeGuide
 			this.Languages = parseFromCache ();
 		}
 
-		public void Fetch() 
+		public void Fetch ()
 		{
 			string baseUrl = "https://refhelp.herokuapp.com:443/api/v1";
 			FetchLanguagesAsync (baseUrl);
 		}
 
 
-		private async void FetchLanguagesAsync(string baseUrl)
+		private async void FetchLanguagesAsync (string baseUrl)
 		{
 			string endpoint = "/languages";
 			HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create (new Uri (baseUrl + endpoint));
 			request.ContentType = "application/json";
 			request.Method = "GET";
 
-			using (WebResponse response = await request.GetResponseAsync ())
-			{
-				using (Stream stream = response.GetResponseStream ())
-				{
+			using (WebResponse response = await request.GetResponseAsync ()) {
+				using (Stream stream = response.GetResponseStream ()) {
 					var streamReader = new StreamReader (stream);
 					var jsonContents = streamReader.ReadToEnd ();
 					var languages = JsonConvert.DeserializeObject<List<Language>> (jsonContents);
@@ -63,7 +62,7 @@ namespace WelcomeGuide
 			}
 		}
 
-		private void createDefaultCache() 
+		private void createDefaultCache ()
 		{
 			var languages = new List<Language> () {
 				new Language () {
@@ -76,7 +75,7 @@ namespace WelcomeGuide
 			CachingService.instance.PersistCache (CachedResponse.Languages, json);
 		}
 
-		private List<Language> parseFromCache()
+		private List<Language> parseFromCache ()
 		{
 			var json = CachingService.instance.GetCache (CachedResponse.Languages);
 			return JsonConvert.DeserializeObject<List<Language>> (json);
