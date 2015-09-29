@@ -9,7 +9,7 @@ namespace WelcomeGuide
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new NavigationPage( new CategoryListPage() );
+			MainPage = new NavigationPage( new WelcomePage() );
 
 		}
 

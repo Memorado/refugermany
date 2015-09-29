@@ -19,7 +19,12 @@ namespace WelcomeGuide
 		public void OnListItemSelected(object sender, SelectedItemChangedEventArgs e)
 		{
 			Category selectedCategory = ((CategoryViewModel)e.SelectedItem).Category;
-			ArticleListPage nextPage = new ArticleListPage () { ViewModel = new ArticleListViewModel () { Category = selectedCategory } };
+			ContentPage nextPage;
+			if (selectedCategory.Articles.Count > 1) {
+				nextPage = new ArticleListPage () { ViewModel = new ArticleListViewModel () { Category = selectedCategory } };
+			} else {
+				nextPage = new TextArticlePage() { ViewModel = new ArticleViewModel() { Article = selectedCategory.Articles[0] } };
+			}
 			Navigation.PushAsync (nextPage);
 		}
 	}

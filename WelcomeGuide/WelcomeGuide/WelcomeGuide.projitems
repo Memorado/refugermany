@@ -26,6 +26,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)ViewModels\CategoryListViewModel.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\ArticlesService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\CategoriesResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)WelcomePage.xaml.cs">
+      <DependentUpon>WelcomePage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)TextArticlePage.xaml.cs">
       <DependentUpon>TextArticlePage.xaml</DependentUpon>
     </Compile>
@@ -41,6 +44,9 @@
       <DeployService-Deploy>True</DeployService-Deploy>
       <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
     </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)WelcomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)TextArticlePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
@@ -50,5 +56,8 @@
     <Folder Include="$(MSBuildThisFileDirectory)ViewModels\" />
     <Folder Include="$(MSBuildThisFileDirectory)Services\" />
     <Folder Include="$(MSBuildThisFileDirectory)Resources\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)Resources\welcome_image.png" />
   </ItemGroup>
 </Project>
