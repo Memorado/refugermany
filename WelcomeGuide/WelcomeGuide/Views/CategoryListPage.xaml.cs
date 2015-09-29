@@ -17,17 +17,17 @@ namespace WelcomeGuide
 
 		protected override void OnAppearing ()
 		{			
-			CategoriesService.instance.OnCategoriesUpdated += OnCategoriesDownloaded;
+			CategoriesService.instance.OnDataChanged += OnCategoriesDownloaded;
 		}
 
 		protected override void OnDisappearing ()
 		{			
-			CategoriesService.instance.OnCategoriesUpdated -= OnCategoriesDownloaded;
+			CategoriesService.instance.OnDataChanged -= OnCategoriesDownloaded;
 		}
 
 		void OnCategoriesDownloaded ()
 		{
-			_viewModel = new CategoryListViewModel (CategoriesService.instance.Categories);
+			_viewModel = new CategoryListViewModel (CategoriesService.instance.Data);
 			myListView.ItemsSource = _viewModel.categories;
 		}
 

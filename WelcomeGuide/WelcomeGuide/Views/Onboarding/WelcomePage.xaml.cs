@@ -14,7 +14,7 @@ namespace WelcomeGuide
 
 		protected override void OnAppearing ()
 		{
-			LanguagesService.instance.Fetch ();
+			LanguagesService.instance.FetchDataAsync ();
 		}
 
 		public void OnContinueClicked(object sender, EventArgs e) 

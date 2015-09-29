@@ -5,6 +5,7 @@ namespace WelcomeGuide
 {
 	public enum CachedResponse 
 	{
+		NONE,
 		Categories,
 		Languages,
 		Locations

@@ -39,6 +39,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\Network\Language.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\CategoriesService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\CachingService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\BackendService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">
@@ -58,6 +59,10 @@
       <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Onboarding\SelectLanguagePage.xaml" />
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\languages.json">
+      <DeployService-Deploy>True</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Models\" />

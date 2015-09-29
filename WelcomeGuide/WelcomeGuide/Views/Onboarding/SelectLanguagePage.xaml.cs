@@ -15,22 +15,22 @@ namespace WelcomeGuide
 
 		protected override void OnAppearing ()
 		{
-			LanguagesService.instance.OnLanguagesUpdated += OnLanguagesDownloaded;
+			LanguagesService.instance.OnDataChanged += OnLanguagesDownloaded;
 		}
 
 		protected override void OnDisappearing ()
 		{
-			LanguagesService.instance.OnLanguagesUpdated -= OnLanguagesDownloaded;
+			LanguagesService.instance.OnDataChanged -= OnLanguagesDownloaded;
 		}
 
 		void OnLanguagesDownloaded ()
 		{
-			languagesListView.ItemsSource = LanguagesService.instance.Languages;
+			languagesListView.ItemsSource = LanguagesService.instance.Data;
 		}
 
 		void OnLanguageSelected(object sender, SelectedItemChangedEventArgs e) 
 		{
-			CategoriesService.instance.Fetch ();
+			CategoriesService.instance.FetchDataAsync ();
 			var language = (Language)e.SelectedItem;
 			SettingsService.instance.Language = language.Code;
 			Navigation.PushAsync (new CategoryListPage ());
