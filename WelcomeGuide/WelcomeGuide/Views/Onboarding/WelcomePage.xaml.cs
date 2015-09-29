@@ -12,9 +12,14 @@ namespace WelcomeGuide
 			InitializeComponent ();
 		}
 
+		protected override void OnAppearing ()
+		{
+			LanguagesService.instance.Fetch ();
+		}
+
 		public void OnContinueClicked(object sender, EventArgs e) 
 		{
-			Navigation.PushAsync (new CategoryListPage ());
+			Navigation.PushAsync (new SelectLanguagePage ());
 		}
 	}
 }

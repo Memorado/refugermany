@@ -33,6 +33,11 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Services\SettingsService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Network\CategoriesResponse.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LanguagesService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Network\Language.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Onboarding\SelectLanguagePage.xaml.cs">
+      <DependentUpon>SelectLanguagePage.xaml</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\articles.json">
@@ -49,6 +54,9 @@
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Onboarding\WelcomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Onboarding\SelectLanguagePage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>
