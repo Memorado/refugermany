@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace WelcomeGuide
 {
@@ -16,10 +17,6 @@ namespace WelcomeGuide
 			get {
 				return Article.Content.Substring (0, 20) + " ...";
 			}
-		}
-
-		public ArticleViewModel ()
-		{
 		}
 	}
 }
