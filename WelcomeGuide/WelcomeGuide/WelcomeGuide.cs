@@ -4,27 +4,26 @@ using Xamarin.Forms;
 
 namespace WelcomeGuide
 {
+	public class ThemedNavigationPage : NavigationPage
+	{
+		public ThemedNavigationPage (Page root)
+			: base (root)
+		{
+			BarBackgroundColor = Color.FromHex ("4AC3BE");
+			BarTextColor = Color.Black;
+		}
+	}
+
 	public class App : Application
 	{
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new NavigationPage( new CategoryListPage () )
-			{
-				Tint = Color.FromHex("4AC3BE"),
-				BarBackgroundColor = Color.FromHex("4AC3BE"),
-				BarTextColor = Color.Black
-			};
+			MainPage = new ThemedNavigationPage (new CategoryListPage ());
 
 			if (!SettingsService.instance.HasSeenOnboarding) {
 				MainPage.Navigation.PushModalAsync (
-					new NavigationPage (
-						new WelcomePage ()
-					) {
-						Tint = Color.FromHex("4AC3BE"),
-						BarBackgroundColor = Color.FromHex("4AC3BE"),
-						BarTextColor = Color.Black
-					}
+					new ThemedNavigationPage (new WelcomePage ()) 
 				);
 			}
 		}
