@@ -1,17 +1,19 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage Title="Welcome Guide" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WelcomeGuide.WelcomePage">
 	<ContentPage.Padding>
-		<OnPlatform x:TypeArguments="Thickness" iOS="0, 20, 0, 0" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
+		<OnPlatform x:TypeArguments="Thickness" iOS="0, 30, 0, 0" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
 	</ContentPage.Padding>
 	<ContentPage.Content>
-		<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="Center" Orientation="Vertical" Spacing="10">
+		<StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="Center" Orientation="Vertical" Spacing="8">
 			<Label Text="Welcome" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />
 			<Label Text="Willkommen" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />
 			<Label Text="اهلا بكم" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />
 			<Label Text="خوش آمدید" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />
-			<Label Text="Добро пожаловать" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />			  
+			<Label Text="Добро пожаловать" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />		
+			<BoxView HeightRequest="8" ></BoxView>	  
 			<Image Source="welcome_image.png" />
-			<Button Image="Button.png" Clicked="OnContinueClicked" />
+			<BoxView HeightRequest="8" ></BoxView>
+			<Button x:Name="continueButton" Image="Button.png" Clicked="OnContinueClicked" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

@@ -85,10 +85,10 @@
     <AndroidResource Include="Resources\drawable-hdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xhdpi\icon.png" />
     <AndroidResource Include="Resources\drawable-xxhdpi\icon.png" />
-    <AndroidResource Include="Resources\drawable\welcome_image.png" />
-    <AndroidResource Include="Resources\drawable\settings.png" />
     <AndroidResource Include="Resources\drawable\search.png" />
-    <AndroidResource Include="Resources\drawable\Button.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\settings.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\welcome_image.png" />
+    <AndroidResource Include="Resources\drawable-hdpi\Button.png" />
   </ItemGroup>
   <Import Project="..\WelcomeGuide\WelcomeGuide.projitems" Label="Shared" Condition="Exists('..\WelcomeGuide\WelcomeGuide.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />

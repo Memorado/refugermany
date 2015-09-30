@@ -37,6 +37,7 @@ namespace WelcomeGuide
 
 		public void OnListItemSelected (object sender, SelectedItemChangedEventArgs e)
 		{
+
 			Action action = ((Setting)e.SelectedItem).Action;
 			action ();
 		}

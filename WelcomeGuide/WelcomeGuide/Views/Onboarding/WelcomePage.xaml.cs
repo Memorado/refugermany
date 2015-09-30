@@ -12,6 +12,15 @@ namespace WelcomeGuide
 			InitializeComponent ();
 			BackgroundColor = Color.FromHex ("4AC3BE");
 			NavigationPage.SetHasNavigationBar (this, false);
+
+			#if __IOS__
+			continueButton.Image = "Button.png";
+			#else
+			continueButton.Text = "Continue";
+			continueButton.Image = null;
+			#endif
+
+
 		}
 
 		protected override void OnAppearing ()
@@ -25,4 +34,3 @@ namespace WelcomeGuide
 		}
 	}
 }
-
