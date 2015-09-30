@@ -13,6 +13,7 @@ namespace WelcomeGuide
 		{
 			InitializeComponent ();
 			OnLanguagesDownloaded ();
+			this.isSettings = isSettings;
 		}
 
 		public SelectLanguagePage ()
@@ -46,12 +47,18 @@ namespace WelcomeGuide
 			activityIndicator.IsVisible = false;
 		}
 
-		void OnLanguageSelected(object sender, SelectedItemChangedEventArgs e) 
-		{
+		void OnLanguageSelected (object sender, SelectedItemChangedEventArgs e)
+		{			
 			var language = (Language)e.SelectedItem;
 			SettingsService.instance.Language = language.Code;
+			SettingsService.instance.LanguageName = language.Name;
 			LocationService.instance.FetchDataAsync ();
-			Navigation.PushAsync (new SelectLocationPage ());
+			CategoriesService.instance.FetchDataAsync ();
+			if (isSettings == true) {
+				Navigation.PopAsync ();
+			} else {
+				Navigation.PushAsync (new SelectLocationPage ());
+			}
 		}
 	}
 }

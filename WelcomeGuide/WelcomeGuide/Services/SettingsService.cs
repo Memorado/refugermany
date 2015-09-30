@@ -79,6 +79,17 @@ namespace WelcomeGuide
 			}
 		}
 
+		public string LanguageName {
+			get {
+				return GetSettings ().LanguageName;
+			} 
+			set {
+				var settings = GetSettings();
+				settings.LanguageName = value;
+				PersistSettings(settings);
+			}
+		}
+
 		public string Location {
 			get {
 				return GetSettings ().Location;

@@ -7,6 +7,15 @@ namespace WelcomeGuide
 {
 	public partial class SelectLocationPage : ContentPage
 	{
+		Boolean isSetting { set; get; }
+
+		public SelectLocationPage (Boolean isSetting)
+		{
+			InitializeComponent ();
+			OnLocationsDownloaded ();
+			this.isSetting = isSetting;
+		}
+
 		public SelectLocationPage ()
 		{
 			InitializeComponent ();
@@ -44,8 +53,11 @@ namespace WelcomeGuide
 			SettingsService.instance.Location = location.Name;
 			SettingsService.instance.HasSeenOnboarding = true;
 			CategoriesService.instance.FetchDataAsync ();
-			Navigation.PopModalAsync ();
-
+			if (isSettings == true) {
+				Navigation.PopAsync ();
+			} else {
+				Navigation.PopModalAsync ();
+			}
 		}
 	}
 }

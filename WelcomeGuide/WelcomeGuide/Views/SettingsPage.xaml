@@ -4,7 +4,7 @@
 		<ListView x:Name="myListView" ItemSelected="OnListItemSelected">
 			<ListView.ItemTemplate>
 				<DataTemplate>
-					<TextCell Text="{Binding Title}" />
+					<TextCell Text="{Binding Title}" Detail="{Binding Detail}"/>
 				</DataTemplate>
 			</ListView.ItemTemplate>
 		</ListView>
