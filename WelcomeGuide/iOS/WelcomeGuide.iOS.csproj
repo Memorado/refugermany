@@ -36,8 +36,7 @@
     <CodesignEntitlements>Entitlements.plist</CodesignEntitlements>
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
-    <CodesignKey>iPhone Distribution</CodesignKey>
-    <CodesignProvision>0ee67bac-e1bd-4f37-9535-1101707e59a8</CodesignProvision>
+    <CodesignKey>iPhone Developer</CodesignKey>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>
@@ -65,6 +64,10 @@
     <MtouchDebug>true</MtouchDebug>
     <IpaPackageName>
     </IpaPackageName>
+    <MtouchUseRefCounting>true</MtouchUseRefCounting>
+    <MtouchI18n>
+    </MtouchI18n>
+    <CodesignProvision>9e39a276-f552-4280-bc64-4a064f22d544</CodesignProvision>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />

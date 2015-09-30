@@ -1,9 +1,12 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <ContentPage Title="Settings" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WelcomeGuide.SettingsPage">
 	<ContentPage.Content>
-		<ListView x:Name="myListView">
-			<TextCell Text="Language" />
-			<TextCell Text="Location" />
+		<ListView x:Name="myListView" ItemSelected="OnListItemSelected">
+			<ListView.ItemTemplate>
+				<DataTemplate>
+					<TextCell Text="{Binding Title}" />
+				</DataTemplate>
+			</ListView.ItemTemplate>
 		</ListView>
 	</ContentPage.Content>
 </ContentPage>

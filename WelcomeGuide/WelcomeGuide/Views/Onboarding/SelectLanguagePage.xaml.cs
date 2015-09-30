@@ -7,6 +7,14 @@ namespace WelcomeGuide
 {
 	public partial class SelectLanguagePage : ContentPage
 	{
+		Boolean isSettings { set; get; }
+
+		public SelectLanguagePage (Boolean isSettings)
+		{
+			InitializeComponent ();
+			OnLanguagesDownloaded ();
+		}
+
 		public SelectLanguagePage ()
 		{
 			InitializeComponent ();
