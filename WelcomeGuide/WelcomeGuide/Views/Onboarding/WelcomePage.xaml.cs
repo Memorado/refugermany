@@ -10,6 +10,7 @@ namespace WelcomeGuide
 		public WelcomePage ()
 		{
 			InitializeComponent ();
+			BackgroundColor = Color.FromHex ("4AC3BE");
 		}
 
 		protected override void OnAppearing ()

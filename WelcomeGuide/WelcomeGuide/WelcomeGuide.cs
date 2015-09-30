@@ -9,9 +9,23 @@ namespace WelcomeGuide
 		public App ()
 		{
 			// The root page of your application
-			MainPage = new NavigationPage( new CategoryListPage () );
+			MainPage = new NavigationPage( new CategoryListPage () )
+			{
+				Tint = Color.FromHex("4AC3BE"),
+				BarBackgroundColor = Color.FromHex("4AC3BE"),
+				BarTextColor = Color.Black
+			};
+
 			if (!SettingsService.instance.HasSeenOnboarding) {
-				MainPage.Navigation.PushModalAsync (new NavigationPage (new WelcomePage ()));
+				MainPage.Navigation.PushModalAsync (
+					new NavigationPage (
+						new WelcomePage ()
+					) {
+						Tint = Color.FromHex("4AC3BE"),
+						BarBackgroundColor = Color.FromHex("4AC3BE"),
+						BarTextColor = Color.Black
+					}
+				);
 			}
 
 		}
