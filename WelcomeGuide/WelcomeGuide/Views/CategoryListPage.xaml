@@ -1,10 +1,14 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
-<ContentPage Title="Guide" xmlns="http://xamarin.com/schemas/2014/forms" xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" x:Class="WelcomeGuide.CategoryListPage">
+<ContentPage Title="Guide" 
+			 xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+			 x:Class="WelcomeGuide.CategoryListPage">
 	<ContentPage.Padding>
 		<OnPlatform x:TypeArguments="Thickness" iOS="20, 40, 20, 20" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
 	</ContentPage.Padding>
 	<ContentPage.Content>
 		<StackLayout VerticalOptions="FillAndExpand" HorizontalOptions="FillAndExpand" Orientation="Vertical" Spacing="15">
+			<ActivityIndicator x:Name="activityIndicator" IsRunning="true" />
 			<ListView x:Name="myListView" ItemSelected="OnListItemSelected">
 				<ListView.ItemTemplate>
 					<DataTemplate>

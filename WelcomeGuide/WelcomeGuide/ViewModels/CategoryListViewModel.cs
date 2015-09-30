@@ -8,6 +8,12 @@ namespace WelcomeGuide
 	{
 		public List<CategoryViewModel> categories;
 
+		public bool Busy { 
+			get {
+				return CategoriesService.instance.Fetching;
+			} 
+		}
+
 		public CategoryListViewModel (List<Category> categories)
 		{
 			this.categories = 

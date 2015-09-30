@@ -45,6 +45,7 @@
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Models\Network\Location.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\LocationService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\ReachabilityService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">

@@ -16,25 +16,33 @@ namespace WelcomeGuide
 		protected override void OnAppearing ()
 		{
 			LocationService.instance.OnDataChanged += OnLocationsDownloaded;
+			LocationService.instance.OnError += OnLocationsFetchError;
+			LocationService.instance.FetchDataAsync ();
+			activityIndicator.IsVisible = LocationService.instance.Fetching;
 		}
 
 		protected override void OnDisappearing ()
 		{
 			LocationService.instance.OnDataChanged -= OnLocationsDownloaded;
+			LocationService.instance.OnError -= OnLocationsFetchError;
 		}
 
 		void OnLocationsDownloaded ()
 		{
 			locationsListView.ItemsSource = LocationService.instance.Data;
+			activityIndicator.IsVisible = false;
 		}
 
-		void OnLocationSelected(object sender, SelectedItemChangedEventArgs e) 
+		void OnLocationsFetchError (Exception obj)
 		{
-			CategoriesService.instance.FetchDataAsync ();
+			activityIndicator.IsVisible = false;
+		}
+
+		void OnLocationSelected (object sender, SelectedItemChangedEventArgs e)
+		{
 			var location = (Location)e.SelectedItem;
 			SettingsService.instance.Location = location.Name;
 			SettingsService.instance.HasSeenOnboarding = true;
-
 			Navigation.PopModalAsync ();
 		}
 	}

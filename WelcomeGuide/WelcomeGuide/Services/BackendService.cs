@@ -11,8 +11,10 @@ namespace WelcomeGuide
 	public class BackendService<T>
 	{
 		public T Data { get; protected set; }
+		public bool Fetching { get; protected set; }
 
 		public event Action OnDataChanged;
+		public event Action<Exception> OnError;
 
 		private string _baseUrl = "https://refhelp.herokuapp.com:443/api/v1";
 		private string _endpoint;
@@ -32,13 +34,18 @@ namespace WelcomeGuide
 
 		public async void FetchDataAsync ()
 		{
+			if (!ReachabilityService.instance.IsNetworkReachable) {
+				return;
+			}
+
 			HttpWebRequest request = (HttpWebRequest)HttpWebRequest.Create (new Uri (_baseUrl + _endpoint));
 			request.ContentType = "application/json";
 			request.Method = "GET";
 			request.Headers ["X-Language"] = SettingsService.instance.Language;
-			request.Headers ["X-Location"] = SettingsService.instance.Language;
+			request.Headers ["X-Location"] = SettingsService.instance.Location;
 
 			try {
+				Fetching = true;
 				using (WebResponse response = await request.GetResponseAsync ()) {
 					using (Stream stream = response.GetResponseStream ()) {
 						var streamReader = new StreamReader (stream);
@@ -48,10 +55,16 @@ namespace WelcomeGuide
 						if (OnDataChanged != null) {
 							OnDataChanged ();
 						}
+						Fetching = false;
 					}
 				}
-			} catch {
+			} catch (Exception e){
 				Console.WriteLine ("Couldn't retrieve Data for " + _endpoint);
+				Console.WriteLine ("Error was " + e.Message);
+				Fetching = false;
+				if (OnError != null) {
+					OnError (e);
+				}
 			}
 		}
 
