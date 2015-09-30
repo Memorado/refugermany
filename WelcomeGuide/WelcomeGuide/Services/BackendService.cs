@@ -36,6 +36,7 @@ namespace WelcomeGuide
 			request.ContentType = "application/json";
 			request.Method = "GET";
 			request.Headers ["X-Language"] = SettingsService.instance.Language;
+			request.Headers ["X-Location"] = SettingsService.instance.Language;
 
 			try {
 				using (WebResponse response = await request.GetResponseAsync ()) {

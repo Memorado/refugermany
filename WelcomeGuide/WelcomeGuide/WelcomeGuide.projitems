@@ -31,7 +31,6 @@
       <DependentUpon>WelcomePage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Services\SettingsService.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)Models\Network\CategoriesResponse.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\LanguagesService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Views\Onboarding\SelectLanguagePage.xaml.cs">
       <DependentUpon>SelectLanguagePage.xaml</DependentUpon>
@@ -41,6 +40,11 @@
     <Compile Include="$(MSBuildThisFileDirectory)Services\CachingService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\BackendService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Models\Settings.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Views\Onboarding\SelectLocationPage.xaml.cs">
+      <DependentUpon>SelectLocationPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)Models\Network\Location.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Services\LocationService.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">
@@ -61,6 +65,13 @@
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Onboarding\SelectLanguagePage.xaml" />
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\languages.json">
+      <DeployService-Deploy>True</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\Onboarding\SelectLocationPage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\locations.json">
       <DeployService-Deploy>True</DeployService-Deploy>
       <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
     </EmbeddedResource>

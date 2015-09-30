@@ -33,19 +33,22 @@ namespace WelcomeGuide
 
 		public void OnListItemSelected (object sender, SelectedItemChangedEventArgs e)
 		{
-			Category selectedCategory = ((CategoryViewModel)e.SelectedItem).Category;
+			if (e.SelectedItem != null) {
+				Category selectedCategory = ((CategoryViewModel)e.SelectedItem).Category;
 
-			//probably should not display category at all, but now its better than crash
-			if (selectedCategory.Articles.Count == 0)
-				return; 
+				//probably should not display category at all, but now its better than crash
+				if (selectedCategory.Articles.Count == 0)
+					return; 
 				
-			ContentPage nextPage;
-			if (selectedCategory.Articles.Count > 1) {
-				nextPage = new ArticleListPage () { ViewModel = new ArticleListViewModel () { Category = selectedCategory } };
-			} else {
-				nextPage = new TextArticlePage () { ViewModel = new ArticleViewModel () { Article = selectedCategory.Articles [0] } };
+				ContentPage nextPage;
+				if (selectedCategory.Articles.Count > 1) {
+					nextPage = new ArticleListPage () { ViewModel = new ArticleListViewModel () { Category = selectedCategory } };
+				} else {
+					nextPage = new TextArticlePage () { ViewModel = new ArticleViewModel () { Article = selectedCategory.Articles [0] } };
+				}
+				Navigation.PushAsync (nextPage);
+				myListView.SelectedItem = null;
 			}
-			Navigation.PushAsync (nextPage);
 		}
 	}
 }

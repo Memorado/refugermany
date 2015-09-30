@@ -39,6 +39,8 @@ namespace WelcomeGuide
 					e.Cancel = true;
 				}
 			};
+
+			this.Title = ViewModel.Article.Title;
 		}
 	}
 }

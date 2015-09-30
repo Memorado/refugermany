@@ -10,7 +10,11 @@ namespace WelcomeGuide
 
 		public CategoryListViewModel (List<Category> categories)
 		{
-			this.categories = categories.Select (c => new CategoryViewModel (c)).ToList();
+			this.categories = 
+				categories
+					.Select (c => new CategoryViewModel (c))
+					.OrderBy(c => c.Category.Position)
+					.ToList();
 		}
 	}
 }
