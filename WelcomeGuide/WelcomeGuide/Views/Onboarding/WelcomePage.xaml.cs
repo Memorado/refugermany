@@ -11,6 +11,7 @@ namespace WelcomeGuide
 		{
 			InitializeComponent ();
 			BackgroundColor = Color.FromHex ("4AC3BE");
+			NavigationPage.SetHasNavigationBar (this, false);
 		}
 
 		protected override void OnAppearing ()

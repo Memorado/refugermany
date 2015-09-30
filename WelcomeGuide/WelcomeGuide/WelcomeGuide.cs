@@ -10,7 +10,7 @@ namespace WelcomeGuide
 			: base (root)
 		{
 			BarBackgroundColor = Color.FromHex ("4AC3BE");
-			BarTextColor = Color.Black;
+			BarTextColor = Color.FromHex ("F6F1F1");
 		}
 	}
 
@@ -20,12 +20,12 @@ namespace WelcomeGuide
 		{
 			// The root page of your application
 			MainPage = new ThemedNavigationPage (new CategoryListPage ());
-
-			if (!SettingsService.instance.HasSeenOnboarding) {
+//
+//			if (!SettingsService.instance.HasSeenOnboarding) {
 				MainPage.Navigation.PushModalAsync (
 					new ThemedNavigationPage (new WelcomePage ()) 
 				);
-			}
+//			}
 		}
 
 		protected override void OnStart ()

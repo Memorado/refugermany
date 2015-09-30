@@ -57,5 +57,9 @@
 	<string>LaunchScreen</string>
 	<key>CFBundleDisplayName</key>
 	<string>RefuGermany</string>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleLightContent</string>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
 </dict>
 </plist>

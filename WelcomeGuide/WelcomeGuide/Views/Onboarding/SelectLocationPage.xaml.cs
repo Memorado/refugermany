@@ -53,7 +53,7 @@ namespace WelcomeGuide
 			SettingsService.instance.Location = location.Name;
 			SettingsService.instance.HasSeenOnboarding = true;
 			CategoriesService.instance.FetchDataAsync ();
-			if (isSettings == true) {
+			if (isSetting == true) {
 				Navigation.PopAsync ();
 			} else {
 				Navigation.PopModalAsync ();

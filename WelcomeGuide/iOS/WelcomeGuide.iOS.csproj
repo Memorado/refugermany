@@ -105,9 +105,10 @@
     <BundleResource Include="Resources\Icon-Small-40.png" />
     <BundleResource Include="Resources\Icon-Small-40%402x.png" />
     <BundleResource Include="Resources\Icon-Small-40%403x.png" />
-    <BundleResource Include="Resources\welcome_image.png" />
     <BundleResource Include="Resources\search%403x.png" />
     <BundleResource Include="Resources\settings%403x.png" />
+    <BundleResource Include="Resources\Button%402x.png" />
+    <BundleResource Include="Resources\welcome_image%402x.png" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="Resources\LaunchScreen.storyboard" />
