@@ -17,6 +17,7 @@ namespace WelcomeGuide
 		protected override void OnAppearing ()
 		{
 			myListView.ItemsSource = ViewModel.ArticleViewModels;
+			this.Title = ViewModel.Category.Name;
 		}
 
 		public void OnArticleSelected (object sender, SelectedItemChangedEventArgs e)

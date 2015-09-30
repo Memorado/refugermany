@@ -35,7 +35,7 @@ namespace WelcomeGuide
 			SettingsService.instance.Location = location.Name;
 			SettingsService.instance.HasSeenOnboarding = true;
 
-			Navigation.PushAsync (new CategoryListPage ());
+			Navigation.PopModalAsync ();
 		}
 	}
 }

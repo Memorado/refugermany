@@ -41,6 +41,7 @@ namespace WelcomeGuide
 			};
 
 			this.Title = ViewModel.Article.Title;
+			
 		}
 	}
 }

@@ -9,13 +9,10 @@ namespace WelcomeGuide
 		public App ()
 		{
 			// The root page of your application
-			ContentPage firstPage;
-			if (SettingsService.instance.HasSeenOnboarding) {
-				firstPage = new CategoryListPage ();
-			} else {
-				firstPage = new WelcomePage ();
+			MainPage = new NavigationPage( new CategoryListPage () );
+			if (!SettingsService.instance.HasSeenOnboarding) {
+				MainPage.Navigation.PushModalAsync (new NavigationPage (new WelcomePage ()));
 			}
-			MainPage = new NavigationPage( firstPage );
 
 		}
 
