@@ -7,6 +7,7 @@ using Android.Runtime;
 using Android.Views;
 using Android.Widget;
 using Android.OS;
+using Android.Net;
 
 namespace WelcomeGuide.Droid
 {
@@ -18,6 +19,9 @@ namespace WelcomeGuide.Droid
 			base.OnCreate (bundle);
 
 			global::Xamarin.Forms.Forms.Init (this, bundle);
+
+			var connectivityManager = (ConnectivityManager)GetSystemService (Context.ConnectivityService);
+			AndroidReachabilityService.Instance = new AndroidReachabilityService (connectivityManager);
 
 			LoadApplication (new App ());
 		}

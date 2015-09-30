@@ -45,7 +45,6 @@ namespace WelcomeGuide
 			var filePath = Path.Combine (documentsPath, Enum.GetName(typeof(CachedResponse), response));
 			return filePath;
 		}
-
 	}
 }
 

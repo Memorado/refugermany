@@ -17,13 +17,24 @@ namespace WelcomeGuide
 					#if __IOS__
 					_instance = new WelcomeGuide.iOS.iOSReachabilityService();
 					#else
-					_instance = new WelcomeGuide.Droid.AndroidReachabilityService();
+					_instance = WelcomeGuide.Droid.AndroidReachabilityService.Instance;
 					#endif
+
+
+					//
+					// TODO: Remove this
+					//
+//					_instance = new NoInternetConnection();
 				}
 
 				return _instance;
 			}
 		}
+	}
+
+	public class NoInternetConnection : IReachabilityService
+	{
+		public bool IsNetworkReachable {get { return false; }}
 	}
 }
 

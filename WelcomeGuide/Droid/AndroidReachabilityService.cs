@@ -8,11 +8,13 @@
 
 	public class AndroidReachabilityService : IReachabilityService
 	{
+		public static AndroidReachabilityService Instance { get; set; }
+
 		private ConnectivityManager _connectivityManager;
 
-		public AndroidReachabilityService ()
+		public AndroidReachabilityService (ConnectivityManager connectivityManager)
 		{
-			_connectivityManager = (ConnectivityManager)GetSystemService (ConnectivityService);
+			this._connectivityManager = connectivityManager; //(ConnectivityManager)GetSystemService (ConnectivityService);
 		}
 
 		#region IReachabilityService implementation
