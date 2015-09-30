@@ -5,6 +5,7 @@ using System.Net;
 using System.IO;
 using Newtonsoft.Json;
 using System.Reflection;
+using Xamarin.Forms;
 
 namespace WelcomeGuide
 {
@@ -25,6 +26,12 @@ namespace WelcomeGuide
 			:base("/categories", "categories.json", CachedResponse.Categories)
 		{
 			
+		}
+
+		public override async void FetchDataAsync ()
+		{
+			MessagingCenter.Send (this, Constants.MessageCategoriesUpdating);
+			base.FetchDataAsync ();
 		}
 
 	}

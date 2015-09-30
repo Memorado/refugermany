@@ -2,7 +2,7 @@
 <ContentPage Title="Guide" 
 			 xmlns="http://xamarin.com/schemas/2014/forms" 
 			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-			 x:Class="WelcomeGuide.CategoryListPage">
+			 x:Class="WelcomeGuide.CategoryListPage" >
 	<ContentPage.Padding>
 		<OnPlatform x:TypeArguments="Thickness" iOS="20, 40, 20, 20" Android="20, 20, 20, 20" WinPhone="20, 20, 20, 20" />
 	</ContentPage.Padding>
@@ -12,7 +12,7 @@
 			<ListView x:Name="myListView" ItemSelected="OnListItemSelected">
 				<ListView.ItemTemplate>
 					<DataTemplate>
-						<TextCell Text="{Binding Title}" Detail="{Binding DetailText}"/>
+						<TextCell Text="{Binding Title}"/>
 					</DataTemplate>
 				</ListView.ItemTemplate>
 			</ListView>
