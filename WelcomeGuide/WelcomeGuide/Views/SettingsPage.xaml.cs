@@ -11,6 +11,10 @@ namespace WelcomeGuide
 		{
 			InitializeComponent ();
 		}
+
+		public void OnListItemSelected (object sender, SelectedItemChangedEventArgs e)
+		{
+		}
 	}
 }
 

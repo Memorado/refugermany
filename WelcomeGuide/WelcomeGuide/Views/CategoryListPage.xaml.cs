@@ -13,6 +13,15 @@ namespace WelcomeGuide
 		{
 			InitializeComponent ();
 			OnCategoriesDownloaded ();
+
+			this.ToolbarItems.Add (new ToolbarItem ("Settings", "settings.png", () => {
+				Navigation.PushAsync( new SettingsPage ());
+			}));
+			this.ToolbarItems.Add (new ToolbarItem ("Search", "search.png", () => {
+					
+			}));
+		
+
 		}
 
 		protected override void OnAppearing ()
@@ -23,7 +32,7 @@ namespace WelcomeGuide
 			activityIndicator.IsVisible = CategoriesService.instance.Fetching;
 		}
 
-		void OnCategoriesUpdating(CategoriesService service)
+		void OnCategoriesUpdating (CategoriesService service)
 		{
 			activityIndicator.IsVisible = service.Fetching;
 		}
