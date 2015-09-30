@@ -14,8 +14,8 @@ namespace WelcomeGuide
 		{
 			this.Category = category;
 			this.ArticleViewModels = category.Articles
-				.Select (a => new ArticleViewModel { Article = a })
-				.OrderBy (a => a.Title)
+				.Select (a => new ArticleViewModel() { Article = a })
+				.OrderBy (a => a.Article.Position)
 				.ToList();
 		}
 	}
