@@ -8,11 +8,7 @@ namespace WelcomeGuide
 	{
 		public List<CategoryViewModel> categories;
 
-		public bool Busy { 
-			get {
-				return CategoriesService.instance.Fetching;
-			} 
-		}
+		public bool AlreadyUpdated { get; set; }
 
 		public CategoryListViewModel (List<Category> categories)
 		{

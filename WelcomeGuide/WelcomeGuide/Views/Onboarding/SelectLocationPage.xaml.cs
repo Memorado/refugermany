@@ -43,7 +43,9 @@ namespace WelcomeGuide
 			var location = (Location)e.SelectedItem;
 			SettingsService.instance.Location = location.Name;
 			SettingsService.instance.HasSeenOnboarding = true;
+			CategoriesService.instance.FetchDataAsync ();
 			Navigation.PopModalAsync ();
+
 		}
 	}
 }

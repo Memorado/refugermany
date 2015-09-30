@@ -13,12 +13,14 @@ namespace WelcomeGuide
 			if (!SettingsService.instance.HasSeenOnboarding) {
 				MainPage.Navigation.PushModalAsync (new NavigationPage (new WelcomePage ()));
 			}
-
 		}
 
 		protected override void OnStart ()
 		{
 			// Handle when your app starts
+			if (SettingsService.instance.HasSeenOnboarding) {
+				CategoriesService.instance.FetchDataAsync ();
+			}
 		}
 
 		protected override void OnSleep ()
@@ -28,6 +30,9 @@ namespace WelcomeGuide
 
 		protected override void OnResume ()
 		{
+			if (SettingsService.instance.HasSeenOnboarding) {
+				CategoriesService.instance.FetchDataAsync ();
+			}
 			// Handle when your app resumes
 		}
 	}

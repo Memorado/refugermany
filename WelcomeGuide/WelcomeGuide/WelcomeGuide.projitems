@@ -46,6 +46,7 @@
     <Compile Include="$(MSBuildThisFileDirectory)Models\Network\Location.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\LocationService.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Services\ReachabilityService.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\Constants.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">
@@ -85,5 +86,6 @@
     <Folder Include="$(MSBuildThisFileDirectory)Views\" />
     <Folder Include="$(MSBuildThisFileDirectory)Views\Onboarding\" />
     <Folder Include="$(MSBuildThisFileDirectory)Models\Network\" />
+    <Folder Include="$(MSBuildThisFileDirectory)Helper\" />
   </ItemGroup>
 </Project>

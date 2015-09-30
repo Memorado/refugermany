@@ -32,7 +32,7 @@ namespace WelcomeGuide
 			this.Data = parseFromCache ();
 		}
 
-		public async void FetchDataAsync ()
+		public virtual async void FetchDataAsync ()
 		{
 			if (!ReachabilityService.instance.IsNetworkReachable) {
 				return;

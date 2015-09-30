@@ -24,56 +24,6 @@
     "articles": []
   },
   {
-    "position": 6,
-    "name": "Working in Germany",
-    "language": "English",
-    "articles": [
-      {
-        "category": "Working in Germany",
-        "title": "As Asylum Applicant",
-        "content": "<p>In general it is not allowed for refugees to work the first three months of their stay.</p>\r\n",
-        "language": "English",
-        "locations": [
-          {
-            "name": "Munich",
-            "language": "English"
-          },
-          {
-            "name": "Hamburg",
-            "language": "English"
-          },
-          {
-            "name": "Cologne",
-            "language": "English"
-          },
-          {
-            "name": "Berlin",
-            "language": "English"
-          }
-        ],
-        "keywords": ""
-      }
-    ]
-  },
-  {
-    "position": 8,
-    "name": "School and kindergarten",
-    "language": "English",
-    "articles": []
-  },
-  {
-    "position": 7,
-    "name": "Health",
-    "language": "English",
-    "articles": []
-  },
-  {
-    "position": 9,
-    "name": "Culture",
-    "language": "English",
-    "articles": []
-  },
-  {
     "position": 1,
     "name": "Asylum procedure",
     "language": "English",

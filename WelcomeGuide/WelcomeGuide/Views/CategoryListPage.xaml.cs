@@ -19,14 +19,17 @@ namespace WelcomeGuide
 		{				
 			CategoriesService.instance.OnDataChanged += OnCategoriesDownloaded;
 			CategoriesService.instance.OnError += OnCategoriesFetchError;
-			CategoriesService.instance.FetchDataAsync ();
+			MessagingCenter.Subscribe<CategoriesService> (this, Constants.MessageCategoriesUpdating, OnCategoriesUpdating);
 			activityIndicator.IsVisible = CategoriesService.instance.Fetching;
+		}
+
+		void OnCategoriesUpdating(CategoriesService service)
+		{
+			activityIndicator.IsVisible = service.Fetching;
 		}
 
 		protected override void OnDisappearing ()
 		{			
-			CategoriesService.instance.OnDataChanged -= OnCategoriesDownloaded;
-			CategoriesService.instance.OnError -= OnCategoriesFetchError;
 			activityIndicator.IsVisible = false;
 		}
 
