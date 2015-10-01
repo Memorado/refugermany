@@ -21,11 +21,11 @@ namespace WelcomeGuide
 			// The root page of your application
 			MainPage = new ThemedNavigationPage (new CategoryListPage ());
 //
-//			if (!SettingsService.instance.HasSeenOnboarding) {
+			if (!SettingsService.instance.HasSeenOnboarding) {
 				MainPage.Navigation.PushModalAsync (
 					new ThemedNavigationPage (new WelcomePage ()) 
 				);
-//			}
+			}
 		}
 
 		protected override void OnStart ()
