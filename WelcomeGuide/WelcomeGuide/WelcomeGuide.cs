@@ -30,6 +30,8 @@ namespace WelcomeGuide
 
 		protected override void OnStart ()
 		{
+			LanguagesService.instance.FetchDataAsync ();
+			LocationService.instance.FetchDataAsync ();
 			// Handle when your app starts
 			if (SettingsService.instance.HasSeenOnboarding) {
 				CategoriesService.instance.FetchDataAsync ();

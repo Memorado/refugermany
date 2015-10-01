@@ -12,39 +12,14 @@ namespace WelcomeGuide
 		public SelectLanguagePage (Boolean isSettings)
 		{
 			InitializeComponent ();
-			OnLanguagesDownloaded ();
 			this.isSettings = isSettings;
+			this.languagesListView.ItemsSource = LanguagesService.instance.Data;
 		}
 
-		public SelectLanguagePage ()
+		public SelectLanguagePage () 
+			:this(false)
 		{
-			InitializeComponent ();
-			OnLanguagesDownloaded ();
-		}
-
-		protected override void OnAppearing ()
-		{
-			LanguagesService.instance.OnDataChanged += OnLanguagesDownloaded;
-			LanguagesService.instance.OnError += OnLanguagesFetchError;
-			LanguagesService.instance.FetchDataAsync ();
-			activityIndicator.IsVisible = LanguagesService.instance.Fetching;
-		}
-
-		protected override void OnDisappearing ()
-		{
-			LanguagesService.instance.OnDataChanged -= OnLanguagesDownloaded;
-			LanguagesService.instance.OnError -= OnLanguagesFetchError;
-		}
-
-		void OnLanguagesDownloaded ()
-		{
-			languagesListView.ItemsSource = LanguagesService.instance.Data;
-			activityIndicator.IsVisible = false;
-		}
-
-		void OnLanguagesFetchError (Exception obj)
-		{
-			activityIndicator.IsVisible = false;
+			
 		}
 
 		void OnLanguageSelected (object sender, SelectedItemChangedEventArgs e)

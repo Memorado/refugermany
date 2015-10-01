@@ -12,39 +12,14 @@ namespace WelcomeGuide
 		public SelectLocationPage (Boolean isSetting)
 		{
 			InitializeComponent ();
-			OnLocationsDownloaded ();
 			this.isSetting = isSetting;
+			this.locationsListView.ItemsSource = LocationService.instance.Data;
 		}
 
 		public SelectLocationPage ()
+			: this (false)
 		{
-			InitializeComponent ();
-			OnLocationsDownloaded ();
-		}
-
-		protected override void OnAppearing ()
-		{
-			LocationService.instance.OnDataChanged += OnLocationsDownloaded;
-			LocationService.instance.OnError += OnLocationsFetchError;
-			LocationService.instance.FetchDataAsync ();
-			activityIndicator.IsVisible = LocationService.instance.Fetching;
-		}
-
-		protected override void OnDisappearing ()
-		{
-			LocationService.instance.OnDataChanged -= OnLocationsDownloaded;
-			LocationService.instance.OnError -= OnLocationsFetchError;
-		}
-
-		void OnLocationsDownloaded ()
-		{
-			locationsListView.ItemsSource = LocationService.instance.Data;
-			activityIndicator.IsVisible = false;
-		}
-
-		void OnLocationsFetchError (Exception obj)
-		{
-			activityIndicator.IsVisible = false;
+			
 		}
 
 		void OnLocationSelected (object sender, SelectedItemChangedEventArgs e)
