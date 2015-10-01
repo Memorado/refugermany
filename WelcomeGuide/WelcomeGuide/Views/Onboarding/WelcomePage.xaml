@@ -13,7 +13,7 @@
 			<BoxView HeightRequest="8" ></BoxView>	  
 			<Image Source="welcome_image.png" />
 			<BoxView HeightRequest="8" ></BoxView>
-			<Button x:Name="continueButton" Image="Button.png" Clicked="OnContinueClicked" />
+			<Button x:Name="continueButton" TextColor="#F6F1F1" Clicked="OnContinueClicked" />
 		</StackLayout>
 	</ContentPage.Content>
 </ContentPage>

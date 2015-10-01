@@ -70,8 +70,7 @@ namespace WelcomeGuide
 				} else if (e.SelectedItem is ArticleViewModel) {
 					ArticleViewModel selectedSearchArtile = (ArticleViewModel)e.SelectedItem;
 					var articlePage = new TextArticlePage () { ViewModel = selectedSearchArtile };
-					Navigation.PushAsync (articlePage);
-						
+					Navigation.PushAsync (articlePage);						
 				}
 				myListView.SelectedItem = null;
 			}

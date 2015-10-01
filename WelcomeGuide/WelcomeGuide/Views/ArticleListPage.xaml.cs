@@ -22,13 +22,16 @@ namespace WelcomeGuide
 
 		public void OnArticleSelected (object sender, SelectedItemChangedEventArgs e)
 		{
-			TextArticle selectedArticle = ((ArticleViewModel)e.SelectedItem).Article;
-			TextArticlePage nextPage = new TextArticlePage () { 
-				ViewModel = new ArticleViewModel () { 
-					Article = selectedArticle 
-				} 
-			};
-			Navigation.PushAsync (nextPage);
+			if (e.SelectedItem != null) {
+				TextArticle selectedArticle = ((ArticleViewModel)e.SelectedItem).Article;
+				TextArticlePage nextPage = new TextArticlePage () { 
+					ViewModel = new ArticleViewModel () { 
+						Article = selectedArticle 
+					} 
+				};
+				Navigation.PushAsync (nextPage);
+				myListView.SelectedItem = null;
+			}
 		}
 	}
 }

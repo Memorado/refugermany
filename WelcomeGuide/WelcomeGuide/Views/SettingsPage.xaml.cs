@@ -20,7 +20,6 @@ namespace WelcomeGuide
 		{
 			InitializeComponent ();
 			fillData ();
-
 		}
 
 		protected override void OnAppearing ()
@@ -37,9 +36,11 @@ namespace WelcomeGuide
 
 		public void OnListItemSelected (object sender, SelectedItemChangedEventArgs e)
 		{
-
-			Action action = ((Setting)e.SelectedItem).Action;
-			action ();
+			if (e.SelectedItem != null) {
+				Action action = ((Setting)e.SelectedItem).Action;
+				action ();
+				myListView.SelectedItem = null;
+			}
 		}
 	}
 }

@@ -48,17 +48,20 @@ namespace WelcomeGuide
 		}
 
 		void OnLanguageSelected (object sender, SelectedItemChangedEventArgs e)
-		{			
-			var language = (Language)e.SelectedItem;
-			SettingsService.instance.Language = language.Code;
-			SettingsService.instance.LanguageName = language.Name;
-			LocationService.instance.FetchDataAsync ();
-			CategoriesService.instance.FetchDataAsync ();
-			if (isSettings == true) {
-				Navigation.PopAsync ();
-			} else {
-				Navigation.PushAsync (new SelectLocationPage ());
-			}
+		{	
+			if (e.SelectedItem != null) {
+				var language = (Language)e.SelectedItem;
+				SettingsService.instance.Language = language.Code;
+				SettingsService.instance.LanguageName = language.Name;
+				LocationService.instance.FetchDataAsync ();
+				CategoriesService.instance.FetchDataAsync ();
+				if (isSettings == true) {
+					Navigation.PopAsync ();
+				} else {
+					Navigation.PushAsync (new SelectLocationPage ());
+				}
+				languagesListView.SelectedItem = null;
+			} 
 		}
 	}
 }

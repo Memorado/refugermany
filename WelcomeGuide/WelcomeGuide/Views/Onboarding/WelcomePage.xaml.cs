@@ -17,10 +17,8 @@ namespace WelcomeGuide
 			continueButton.Image = "Button.png";
 			#else
 			continueButton.Text = "Continue";
-			continueButton.Image = null;
+			continueButton.TextColor = Color.FromHex ("F6F1F1");
 			#endif
-
-
 		}
 
 		protected override void OnAppearing ()
@@ -28,7 +26,7 @@ namespace WelcomeGuide
 			LanguagesService.instance.FetchDataAsync ();
 		}
 
-		public void OnContinueClicked(object sender, EventArgs e) 
+		public void OnContinueClicked (object sender, EventArgs e)
 		{
 			Navigation.PushAsync (new SelectLanguagePage ());
 		}

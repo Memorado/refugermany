@@ -49,14 +49,17 @@ namespace WelcomeGuide
 
 		void OnLocationSelected (object sender, SelectedItemChangedEventArgs e)
 		{
-			var location = (Location)e.SelectedItem;
-			SettingsService.instance.Location = location.Name;
-			SettingsService.instance.HasSeenOnboarding = true;
-			CategoriesService.instance.FetchDataAsync ();
-			if (isSetting == true) {
-				Navigation.PopAsync ();
-			} else {
-				Navigation.PopModalAsync ();
+			if (e.SelectedItem != null) {
+				var location = (Location)e.SelectedItem;
+				SettingsService.instance.Location = location.Name;
+				SettingsService.instance.HasSeenOnboarding = true;
+				CategoriesService.instance.FetchDataAsync ();
+				if (isSetting == true) {
+					Navigation.PopAsync ();
+				} else {
+					Navigation.PopModalAsync ();
+				}
+				locationsListView.SelectedItem = null;
 			}
 		}
 	}
