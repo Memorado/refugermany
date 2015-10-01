@@ -19,6 +19,8 @@ namespace WelcomeGuide
 			continueButton.Text = "Continue";
 			continueButton.TextColor = Color.FromHex ("F6F1F1");
 			#endif
+
+			StartHeartbeat ();
 		}
 
 		protected override void OnAppearing ()
@@ -29,6 +31,27 @@ namespace WelcomeGuide
 		public void OnContinueClicked (object sender, EventArgs e)
 		{
 			Navigation.PushAsync (new SelectLanguagePage ());
+		}
+
+		public enum HeartState
+		{
+			Collapsed,
+			Expanded
+		}
+
+		private HeartState _heartState = HeartState.Collapsed;
+
+		public async void StartHeartbeat()
+		{
+			if (_heartState == HeartState.Collapsed) {
+				await heartImage.ScaleTo (1.1, 700, Easing.BounceOut);
+				_heartState = HeartState.Expanded;
+			} else {
+				await heartImage.ScaleTo (1.0, 700);
+				_heartState = HeartState.Collapsed;
+			}
+
+			StartHeartbeat ();
 		}
 	}
 }

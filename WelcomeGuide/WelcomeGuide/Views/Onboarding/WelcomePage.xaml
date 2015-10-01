@@ -9,10 +9,15 @@
 			<Label Text="Willkommen" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />
 			<Label Text="اهلا بكم" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />
 			<Label Text="خوش آمدید" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />
-			<Label Text="Добро пожаловать" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />		
-			<BoxView HeightRequest="8" ></BoxView>	  
-			<Image Source="welcome_image.png" />
-			<BoxView HeightRequest="8" ></BoxView>
+			<Label Text="Добро пожаловать" TextColor="#F6F1F1" FontSize="25" HorizontalOptions="Center" />
+<!--			<BoxView HeightRequest="8">
+			</BoxView>-->
+			<AbsoluteLayout>
+				<Image x:Name="houseImage" Source="house.png" WidthRequest="100" HeightRequest="100"  AbsoluteLayout.LayoutBounds="0.5, 0.5, 0.5, 0.5" AbsoluteLayout.LayoutFlags="All"/>
+				<Image x:Name="heartImage" Source="heart.png" WidthRequest="70" HeightRequest="70" AbsoluteLayout.LayoutBounds="0.5, 0.55, 0.25, 0.25" AbsoluteLayout.LayoutFlags="All" />
+			</AbsoluteLayout>
+<!--			<BoxView HeightRequest="8">
+			</BoxView>-->
 			<Button x:Name="continueButton" TextColor="#F6F1F1" Clicked="OnContinueClicked" />
 		</StackLayout>
 	</ContentPage.Content>
