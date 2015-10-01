@@ -25,9 +25,7 @@ namespace WelcomeGuide
 			if (e.SelectedItem != null) {
 				TextArticle selectedArticle = ((ArticleViewModel)e.SelectedItem).Article;
 				TextArticlePage nextPage = new TextArticlePage () { 
-					ViewModel = new ArticleViewModel () { 
-						Article = selectedArticle 
-					} 
+					ViewModel = new ArticleViewModel (selectedArticle)
 				};
 				Navigation.PushAsync (nextPage);
 				myListView.SelectedItem = null;

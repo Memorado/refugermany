@@ -7,7 +7,7 @@ namespace WelcomeGuide
 {
 	public partial class TextArticlePage : ContentPage
 	{
-		public ArticleViewModel ViewModel = new ArticleViewModel();
+		public ArticleViewModel ViewModel { get; set; }
 
 		public TextArticlePage ()
 		{
@@ -19,7 +19,7 @@ namespace WelcomeGuide
 			//fill-in info
 			var htmlSource = new HtmlWebViewSource ()
 			{
-				Html = ViewModel.Article.Content
+				Html = ViewModel.HtmlText
 			};
 			this.webView.Source = htmlSource;
 
@@ -40,7 +40,7 @@ namespace WelcomeGuide
 				}
 			};
 
-			this.Title = ViewModel.Article.Title;
+			this.Title = ViewModel.Title;
 			
 		}
 	}

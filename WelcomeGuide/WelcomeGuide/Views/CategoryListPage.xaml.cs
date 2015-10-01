@@ -46,7 +46,7 @@ namespace WelcomeGuide
 
 		void OnCategoriesFetchError (Exception obj)
 		{
-			DisplayAlert ("Error", "Couldn't update from internet. Try again later.", "Dismiss");
+//			DisplayAlert ("Error", "Couldn't update from internet. Try again later.", "Dismiss");
 			SetBusy(false);
 		}
 
@@ -64,7 +64,7 @@ namespace WelcomeGuide
 					if (selectedCategory.Articles.Count > 1) {
 						nextPage = new ArticleListPage () { ViewModel = new ArticleListViewModel (selectedCategory)  };
 					} else {
-						nextPage = new TextArticlePage () { ViewModel = new ArticleViewModel () { Article = selectedCategory.Articles [0] } };
+						nextPage = new TextArticlePage () { ViewModel = new ArticleViewModel (selectedCategory.Articles [0]) };
 					}
 					Navigation.PushAsync (nextPage);
 				} else if (e.SelectedItem is ArticleViewModel) {

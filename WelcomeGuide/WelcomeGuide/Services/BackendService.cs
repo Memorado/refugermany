@@ -76,17 +76,7 @@ namespace WelcomeGuide
 
 		private void createDefaultCache (string offlineVersionPath)
 		{
-			#if __IOS__
-			var resourcePrefix = "WelcomeGuide.iOS.Resources.";
-			#endif
-			#if __ANDROID__
-			var resourcePrefix = "WelcomeGuide.Droid.Resources.";
-			#endif
-
-			var assembly = typeof(CategoriesService).GetTypeInfo().Assembly;
-			Stream stream = assembly.GetManifestResourceStream (resourcePrefix + offlineVersionPath);
-			StreamReader sr = new StreamReader (stream);
-			String contents = sr.ReadToEnd ();
+			string contents = ResourcesHelper.LoadResource (offlineVersionPath);
 			CachingService.instance.PersistCache(_cacheType, contents);
 		}
 	}

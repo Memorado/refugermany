@@ -39,7 +39,7 @@ namespace WelcomeGuide
 		{
 			return Category.Articles
 				.Where ((a) => searchTerm.ContainedInAny(a.Keywords, a.Title, a.Content))
-				.Select((a) => new ArticleViewModel() { Article = a });
+				.Select((a) => new ArticleViewModel(a) );
 		}
 	}
 }

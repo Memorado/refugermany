@@ -50,8 +50,8 @@
     <Compile Include="$(MSBuildThisFileDirectory)Views\SettingsPage.xaml.cs">
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
-    <Compile Include="$(MSBuildThisFileDirectory)Helper\AsynchronousQueryExecutor.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Helper\Extensions.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\ResourcesHelper.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">
@@ -84,6 +84,10 @@
     </EmbeddedResource>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\SettingsPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Include="$(MSBuildThisFileDirectory)Resources\article.css">
+      <DeployService-Deploy>True</DeployService-Deploy>
+      <DeployService-UseProjectRelativePath>True</DeployService-UseProjectRelativePath>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
