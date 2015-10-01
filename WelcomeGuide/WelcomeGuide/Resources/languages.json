@@ -1,18 +1,26 @@
 ﻿[
   {
-    "name": "English",
-    "code": "7e24acb850110f59"
+    "name": "Munich",
+    "language": "7e24acb850110f59"
   },
   {
-    "name": "Deutsch (German)",
-    "code": "00eeff073a203bea"
+    "name": "Hamburg",
+    "language": "7e24acb850110f59"
   },
   {
-    "name": "(Arabic) عربي",
-    "code": "fc1b6bb31635db77"
+    "name": "Cologne",
+    "language": "7e24acb850110f59"
   },
   {
-    "name": "(Urdu) اردو",
-    "code": "2178ff60a1e0149d"
+    "name": "Berlin",
+    "language": "7e24acb850110f59"
+  },
+  {
+    "name": "Add later",
+    "language": "7e24acb850110f59"
+  },
+  {
+    "name": "Other",
+    "language": "7e24acb850110f59"
   }
 ]

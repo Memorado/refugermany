@@ -1,5 +1,90 @@
 ﻿[
   {
+    "position": 11,
+    "name": "Library",
+    "language": "7e24acb850110f59",
+    "articles": [
+      {
+        "category": "Library",
+        "title": "Video accompanying booklet BAMF",
+        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AADcYYxcCVRXpJ-OMtF9CWJda/B_Asylverfahren/b_Film%20und%20Brosch%C3%BCre_BAMF_2014/Fertig/Begleitende%20Brosch%C3%BCre/EN_begleitbroschuere_BAMF.pdf?dl=0\">Download link</a></p>\r\n\r\n<p>See the referenced video <a href=\"https://www.bamf.de/SharedDocs/Videos/EN/BAMF/ablauf-asylverfahren.html?nn=1367522\">here</a></p>\r\n",
+        "keywords": "video,asylum procedure,asylum,asylum application",
+        "position": 1
+      },
+      {
+        "category": "Library",
+        "title": "Interview Helper",
+        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AAD0vjvZLfe5aVb98KOo6W0-a/B_Asylverfahren/c_Anh%C3%B6rung/Fertig/Info_Anh%C3%B6rung_verschSprachen/EN_Info_Anh%C3%B6rung_Asyl%26Migr%20e.V._2009.pdf?dl=0\">Download link</a></p>\r\n",
+        "keywords": "interview,helper,interview helper",
+        "position": 2
+      },
+      {
+        "category": "Library",
+        "title": "Registration at kindergarten",
+        "content": "<p>Document available in German only, please ask a volunteer to help you translate</p>\r\n\r\n<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AAB-aU2NBZ5hHTZC3K_YnLb-a/F_Wichtige%20Schritte/a_Schule_Kita/Fertig/DE_Kita%20Anmeldung_Formular_Aug2013.pdf?dl=0\">Download link</a></p>\r\n",
+        "keywords": "kindergarten,registration at kindergarten,kita,gutschein",
+        "position": 8
+      },
+      {
+        "category": "Library",
+        "title": "Info about green medical forms",
+        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AAAfwakcD4kqNfq-v_C_rUE-a/F_Wichtige%20Schritte/b_Arztbesuch/Fertig/Gr%C3%BCne%20Scheine_info/EN_gSch.pdf?dl=0\">Download link</a></p>\r\n",
+        "keywords": "green form,green,medical form,doctor",
+        "position": 9
+      },
+      {
+        "category": "Library",
+        "title": "Info about medication schedule",
+        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AAAFTmlD6FzrKBehu4eS0QX5a/F_Wichtige%20Schritte/b_Arztbesuch/Fertig/Medikamenteneinnahme/EN_Med_Einnahme.pdf?dl=0\">Download link</a></p>\r\n",
+        "keywords": "medication,medication schedule,doctor",
+        "position": 10
+      },
+      {
+        "category": "Library",
+        "title": "Asylum Procedure BAMF",
+        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABIG4GjQoEKnfVCmnNnRiuGa/B_Asylverfahren/a_Prozess_%C3%9Cbersicht/Fertig/Ablauf_Asylverfaharen_BAMF/EN_Ablauf-Asylverfahren_BAMF_Jun2014.pdf?dl=0\">Download link</a></p>\r\n",
+        "keywords": "asylum procedure,bamf,asylum,asylum application",
+        "position": 0
+      },
+      {
+        "category": "Library",
+        "title": "Dublin - what now?",
+        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABxsejrhYVXw_1lqzzn9abha/B_Asylverfahren/d_Dublin%20III/Fertig/Info_Dublin%20-%20was%20nun%3F_Fl%C3%BCchtlingsratBrand_verschSprachen_Aug2014/EN_Dublin-was%20nun%3F_Fl%C3%BCchtlingsratBrand_Aug2014.pdf?dl=0\">Download link</a></p>\r\n",
+        "keywords": "dublin,fingerprinted,double-fingerprint",
+        "position": 4
+      },
+      {
+        "category": "Library",
+        "title": "Registration at citizen center",
+        "content": "<p>Document only available in German, please ask for a volunteer to help you fill out</p>\r\n\r\n<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AADiNksj-A332tZ91eUeNKIca/B_Asylverfahren/DE_Anmeldung%20Meldbeh%C3%B6rde_Formular.pdf?dl=0\">Download link</a></p>\r\n",
+        "keywords": "",
+        "position": 5
+      },
+      {
+        "category": "Library",
+        "title": "Sponsoring language course certificate",
+        "content": "<p>If you have registered with Freedomus at Elisabethenhaus in Berlin-Mitte, they offer to pay 50% of your language course and fill out <a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABBd8hjbcrhvEkClgmQi-Gya/D_Deutsch%20lernen/Fertig/DE_Sponsor%20Zertifikat.pdf?dl=0\">this document</a>.</p>\r\n",
+        "keywords": "learning german,certificate,language",
+        "position": 6
+      },
+      {
+        "category": "Library",
+        "title": "Foreign workers info BAA",
+        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AAA0aKwiASKvQMLLEFc892KJa/E_Arbeiten%20in%20Deutschland/Fertig/b_BAA%20Merkblatt/EN_Foreign%20workers%20info_BAA_Jan2015.pdf?dl=0\">Download link</a></p>\r\n",
+        "keywords": "working in germany,baa,bundesagentur,arbeitsamt,work",
+        "position": 7
+      },
+      {
+        "category": "Library",
+        "title": "25 sample interview questions",
+        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AADhqM2CaMyKCRcDfrzvHhqza/B_Asylverfahren/d_Dublin%20III/Fertig/25%20Fragen_BAMF/EN_25%20Fragen_bamf_2012.doc?dl=0\">Download link</a></p>\r\n",
+        "keywords": "25,sample interview",
+        "position": 3
+      }
+    ],
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/23/normal_noun_1976_cc.png?1443631352"
+  },
+  {
     "position": 0,
     "name": "Welcome!",
     "language": "7e24acb850110f59",
@@ -7,12 +92,55 @@
       {
         "category": "Welcome!",
         "title": "We are happy to have you here!",
-        "content": "<p>As voluntary helpers we would like to warmly welcome you here in Berlin!</p>\r\n\r\n<p>We know that many of you went through a lot of hardship &ndash; in your home countries as well as on your way to Germany. Many of you are worried about families and friends. We wish for you to find a safe haven here in Germany and establish good contacts to the German people and the German culture. We also wish for you to integrate well and to find a job &ndash; knowing that this chance is not granted to everyone.</p>\r\n\r\n<p>This app is co-produced by a pro-bono project of Memorado and by&nbsp;FREEDOMUS at&nbsp;Elisabethhaus in Berlin-Mitte. You are always welcome to come and&nbsp;visit in our spare time. We would like to get to know you and help you as contact persons for many areas. At the same time we would like to support you and give answers on all questions you might have right now.</p>\r\n",
+        "content": "<p><img alt=\"\" src=\"http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/9/original_german_heart_flag.png\" style=\"width: 100%;\" /></p>\r\n\r\n<p>As voluntary helpers we would like to warmly welcome you here in Berlin!</p>\r\n\r\n<p>We know that many of you went through a lot of hardship &ndash; in your home countries as well as on your way to Germany. Many of you are worried about families and friends. We wish for you to find a safe haven here in Germany and establish good contacts to the German people and the German culture. We also wish for you to integrate well and to find a job &ndash; knowing that this chance is not granted to everyone.</p>\r\n\r\n<p>This app is co-produced by a pro-bono project of Memorado and by&nbsp;FREEDOMUS at&nbsp;Elisabethhaus in Berlin-Mitte. You are always welcome to come and&nbsp;visit in our spare time. We would like to get to know you and help you as contact persons for many areas. At the same time we would like to support you and give answers on all questions you might have right now.</p>\r\n",
         "keywords": "",
         "position": 0
       }
     ],
-    "icon": "/icons/normal/missing.png"
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/1/normal_welcome.png?1443639114"
+  },
+  {
+    "position": 2,
+    "name": "Housing",
+    "language": "7e24acb850110f59",
+    "articles": [
+      {
+        "category": "Housing",
+        "title": "On arrival",
+        "content": "<p><img alt=\"\" src=\"http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/10/original_noun_26701_cc.png\" style=\"width: 100%;\" /></p>\r\n\r\n<p>You will live in initial reception facility (<i>Erstaufnahmeeinrichtung</i>) for a maximum of 3 months. After that you are transferred to another facility&nbsp;(shared accommodation / <i>Gemeinschaftsunterkunft</i>). This transfer is regulated by the State Office for Health and Social Issues (<i>LaGeSo, Sozial</i>). There are regulatory exceptions if other family members live in Germany or for other specific reasons.</p>\r\n",
+        "keywords": "housing,reception facility,Erstaufnahmeeinrichtung",
+        "position": 0
+      },
+      {
+        "category": "Housing",
+        "title": "After 3 months - Berlin info",
+        "content": "<p>Evangelische Jugend- und F&uuml;rsorgewerk (EJF) is responsible for the mediation of apartments in Berlin. After your registration the EJF will take over the task of finding the suitable apartment. However, there is growing demand for apartments that exceeds supply.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>EJF (Evangelisches Jugend- und F&uuml;rsorgewerk)<br />\r\nWohnungen f&uuml;r Fl&uuml;chtlinge (Housing for refugees)<br />\r\nBeratung und Vermittlung (Consulting and mediation)<br />\r\nTurmstr. 21, Haus K<br />\r\n10559 Berlin (Moabit)<br />\r\nTel. (030) 30 873-652<br />\r\nFax (030) 30 873-663<br />\r\nE-Mail:&nbsp;wohnungen-fuer-fluechtlinge@ejf.de</p>\r\n",
+        "keywords": "ejf,housing berlin",
+        "position": 2
+      },
+      {
+        "category": "Housing",
+        "title": "After recognition",
+        "content": "<p>With your recognition your status will change. Then you can search for a flat on the &bdquo;free market&ldquo;. Jobcenter pays the rent for an apartment under the so-called KDU <i>(&ldquo;Kosten der Unterkunft&rdquo;</i>). This means that Jobcenter pays your rent as long as you can&rsquo;t pay it yourself (you don&rsquo;t work (yet) or you do not earn enough to pay the rent).</p>\r\n",
+        "keywords": "housing,recognition,KDU",
+        "position": 3
+      },
+      {
+        "category": "Housing",
+        "title": "After 3 months",
+        "content": "<p>Basically, you can get a permission for individual housing search from LaGeSo on the expiry of the 3 months&nbsp;if this has not come automatically in the post. Then, you have the right for private living. The rental and running costs (water, etc.) as well as the key money will be taken over by the LaGeSo (this is different for refugees with recognition).</p>\r\n",
+        "keywords": "housing",
+        "position": 1
+      },
+      {
+        "category": "Housing",
+        "title": "Tips to find housing",
+        "content": "<p><strong>1. Finding an apartment on the internet</strong></p>\r\n\r\n<ul>\r\n\t<li><a href=\"http://www.immobilienscout.de\">www.immobilienscout.de</a> (small flats/shared apartments)</li>\r\n\t<li><a href=\"http://www.wg-suche.de\">www.wg-suche.de</a></li>\r\n\t<li><a href=\"http://www.studenten-wg.de\">www.studenten-wg.de</a>: here you have to pay a one-off fee (&euro;100) and a cash deposit of &euro;750 (one-time). The rental fee includes all running costs and the rooms are furnished (including electrical devices).</li>\r\n\t<li><a href=\"http://www.kleinanzeigen.ebay.de\">www.kleinanzeigen.ebay.de</a> / Section &bdquo;auf Zeit &amp; WG&ldquo; &ndash; offers of furnished rooms, also of sublease for 1-1,5 years.</li>\r\n\t<li><a href=\"http://www.wg-gesucht.de\">www.wg-gesucht.de</a> (you have to fill out a search mask)</li>\r\n\t<li>www.fl&uuml;chtlinge-willkommen.de (to announce a shared apartment )</li>\r\n\t<li>www.sharehaus.net (circle of friends)</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>2. <strong>Schufa</strong> (credit report), there are 3 ways of getting it:</p>\r\n\r\n<ul>\r\n\t<li><a href=\"https://drive.google.com/open?id=0B4COzbmRKC-aTmlVRVZLUVdMN3M\">Via post</a>&nbsp;/ takes 14 days / for free once per year\r\n\r\n\t<ul>\r\n\t\t<li>Fill out form</li>\r\n\t\t<li>Include copy of passport</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.meineschufa.de%2Findex.php%3Fsite%3D7&amp;sa=D&amp;sntz=1&amp;usg=AFrqEzfbEdA11G88wpXFxls669YggjVmpg\">Online</a>&nbsp;/ same day / 24.95&euro;\r\n\t<ul>\r\n\t\t<li>unfortunately site only in German</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.meineschufa.de%2Findex.php%3Fsite%3D14_3&amp;sa=D&amp;sntz=1&amp;usg=AFrqEzdVep_lxFrSFKTy7yrwb7vFVRRmlA\">In person</a>&nbsp;/ same day / 24.95&euro;\r\n\t<ul>\r\n\t\t<li>Go to Postbank at Sch&ouml;nhauser Allee 79, 10439 Berlin. Opening times are: Mo-Fr 9am &ndash; 8pm, Sa 10am &ndash; 8pm, So closed.</li>\r\n\t\t<li>Copy of passport and registration in Germany needed</li>\r\n\t\t<li>Amount needs to be paid by direct debit from a German bank account (does not have to be yours)</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p>3. A<strong> security deposit/ key money </strong>is required in most cases, in some cases no deposit is needed. Please always ask how much money is required.</p>\r\n\r\n<p>4. Attention: <strong>Provision</strong> &ndash; always ask if the flat is offered through an agent (provision required!)</p>\r\n\r\n<p>5. Attention: &ldquo;<strong>Warm&rdquo; or &ldquo;cold&rdquo; rent </strong>&ndash; Cold rent means <u>without</u> running costs &ndash; is mostly specified.</p>\r\n",
+        "keywords": "schufa,deposit,finding,apartment",
+        "position": 4
+      }
+    ],
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/3/normal_noun_17050_cc.png?1443639451"
   },
   {
     "position": 3,
@@ -34,7 +162,87 @@
         "position": 1
       }
     ],
-    "icon": "/icons/normal/missing.png"
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/4/normal_noun_34681_cc.png?1443639907"
+  },
+  {
+    "position": 4,
+    "name": "Transportation",
+    "language": "7e24acb850110f59",
+    "articles": [
+      {
+        "category": "Transportation",
+        "title": "Getting around",
+        "content": "<p>With a valid ticket you can use all public transport in Berlin: S-Bahn (suburban trains), U-Bahn (underground trains), busses and tramways. The price of the ticket depends on the zone you travel in and the period you need the ticket for (i.e. just for one trip, for one day, for one week or for an entire month etc.)</p>\r\n\r\n<p><strong>Zones and Maps: </strong>In Berlin there are three travel zones: AB, BC and ABC. Zone AB comprises the entire city of Berlin up to the city boundary. Zone ABC additionally comprises the surroundings of Berlin and Potsdam. You will find maps of the public transport in all stations. The various lines are marked with different symbols and colors. The U stands for U-Bahn (underground train) and the S stands for S-Bahn (suburban train). For example, on the public transport map, you will find the line U5 is colored in brown and the line S7 is colored in purple.</p>\r\n\r\n<p><strong>Fares</strong></p>\r\n\r\n<ul>\r\n\t<li><strong>Single Ticket (Einzelfahrschein):</strong> With a single ticket, one person can use the public transport for two hours in any direction. You cannot use a single ticket, however, to return to the station where you originally started from.&nbsp;Price: Zone AB: 2,70 EURO; Reduced: 1,70 EURO. Zone ABC: 3,30 EURO; Reduced: 2,40 EURO</li>\r\n\t<li><strong>Single Short Trip Ticket (Kurzstrecke): </strong>You can use a short trip&nbsp;ticket if you only travel three stops by U-Bahn (underground) or S-Bahn (suburban train). On the bus or tramway you can use a short trip&nbsp;ticket for travelling up to six stops without change of lines.&nbsp;Price: 1,60 EURO, Reduced 1,20 EURO.</li>\r\n\t<li><strong>Tickets for Children:</strong> Children up to the age of six years do not need a ticket when travelling with an adult. Children between six and fourteen years of age need a reduced ticket for 1,70 EURO in Zone AB no matter if single ticket or short trip ticket.</li>\r\n\t<li><strong>Day Ticket (Tageskarte) for 1 person: </strong>With a day ticket, you can use all public transport for the entire day. It is valid from the time you stamp it until the next day 3am. A Day Ticket for one person costs 6,90 EURO in Zone AB, the reduced price is 4,70 EURO.</li>\r\n\t<li><strong>7-Day-Ticket for 1 person: </strong>The 7-Day-Ticket is valid for seven consecutive days from the day it is validated by stamping. It costs 29,50 EURO. The 7-Day-Ticket loses its validity on the seventh day at midnight.</li>\r\n\t<li><strong>Day-Ticket for Small Groups (Kleingruppen-Tageskarte)</strong>: This ticket is valid for up to five persons travelling together for all public transport from the time you stamp it until the next day 3am. For zone AB it costs 16,90 EUROS.</li>\r\n\t<li><strong>Monthly Ticket (Monatskarte)</strong>: You can choose if this ticket should be valid for one month (e.g. October) or for 30 days (e.g. October 12 to November 11). It costs 79.50 EURO.</li>\r\n</ul>\r\n\r\n<p>For more information on the tickets, please visit:&nbsp;https://shop.bvg.de/index.php/tickets</p>\r\n\r\n<p><strong>&bdquo;Berlinpass&ldquo;: </strong>When you arrive in Berlin, you will receive the so-called berlinpass. Amongst other things, it will give you a discount for getting around in Berlin by public transport (BVG). A monthly card AB (Berlin-Ticket S) costs EURO 36 with berlinpass and is valid from the first date of each month until the last date of the same month.&nbsp; You can buy it only in the train stations.</p>\r\n\r\n<p><strong>Buying a Ticket: </strong>You can buy a ticket at the ticket machine on the platforms of the U-Bahn and the S-Bahn. The ticket machines have options for various languages so you can choose the language you are most comfortable with. When using a bus, you buy your ticket from the bus driver. For the tramway you get your ticket at the ticket machine inside the tramway. At larger stations there are also booths where you can buy your ticket.</p>\r\n\r\n<p><strong>Validate Your Ticket: </strong>Before you start your journey you need to validate your ticket. You do this by stamping the ticket at one of the yellow or red boxes on the platforms, inside the busses or the tramways. Please note that without this stamp the ticket is regarded as invalid!</p>\r\n\r\n<p><strong>Fare-Dodging in Berlin: </strong>If you use public transport without a valid ticket and you come across a ticket inspector, you will be asked to pay an &ldquo;increased fare&rdquo; of EURO 60. In this context, please remember that you need to stamp your ticket to validate it. The ticket inspectors do not make any exceptions for passengers unaware of these rules. A ticket inspector may ask you to show proof of your identity. If there are any problems the police might be called.</p>\r\n",
+        "keywords": "transportation,u bahn,s bahn,ticket,public transport,bus,tram",
+        "position": 0
+      }
+    ],
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/5/normal_noun_7192_cc.png?1443640107"
+  },
+  {
+    "position": 1,
+    "name": "Asylum procedure",
+    "language": "7e24acb850110f59",
+    "articles": [
+      {
+        "category": "Asylum procedure",
+        "title": "3) After moving into a initial reception facility",
+        "content": "<ul>\r\n\t<li>You register with the Central Immigration Authority, the ZAA or the&nbsp;Zentrales&nbsp;Ausl&auml;nderamt&nbsp;as it&rsquo;s called or the&nbsp;LaBo&nbsp;as it&rsquo;s called in Berlin.</li>\r\n\t<li>A file with all your information will be created, also with a photo of yours. A doctor will&nbsp;be examining you.</li>\r\n\t<li>At BAMF you will get an appointment for applying for asylum. BAMF stands for&nbsp;Bundesamt f&uuml;r Migration und Fl&uuml;chtlinge. BAMF is the office that&nbsp;decides about your&nbsp;application.</li>\r\n</ul>\r\n",
+        "keywords": "",
+        "position": 2
+      },
+      {
+        "category": "Asylum procedure",
+        "title": "1) Arrival in Germany",
+        "content": "<ul>\r\n\t<li>\r\n\t<p>Contact a police station immediately when arriving&nbsp;in Germany</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You will be registered with your personal data and&nbsp;your country of origin</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You will be referred to one of the 16 federal states within Germany</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You receive a certificate of registration as an asylum seeker&nbsp;(&ldquo;B&Uuml;MA&rdquo;). Please carry this&nbsp;with you at all times.</p>\r\n\t</li>\r\n</ul>\r\n\r\n<p>For a good overview of the whole asylum procedure, take a look at <a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABIG4GjQoEKnfVCmnNnRiuGa/B_Asylverfahren/a_Prozess_%C3%9Cbersicht/Fertig/Ablauf_Asylverfaharen_BAMF/EN_Ablauf-Asylverfahren_BAMF_Jun2014.pdf?dl=0\">this document</a>&nbsp;as well as this <a href=\"http://www.bamf.de/SharedDocs/Videos/EN/BAMF/ablauf-asylverfahren.html?nn=1451252\">video</a> with <a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AADcYYxcCVRXpJ-OMtF9CWJda/B_Asylverfahren/b_Film%20und%20Brosch%C3%BCre_BAMF_2014/Fertig/Begleitende%20Brosch%C3%BCre/EN_begleitbroschuere_BAMF.pdf?dl=0\">additional description</a>.</p>\r\n",
+        "keywords": "",
+        "position": 0
+      },
+      {
+        "category": "Asylum procedure",
+        "title": "2) First few days",
+        "content": "<ul>\r\n\t<li>You will be assigned to an initial reception facility (Erstaufnahmeeinrichtung).&nbsp;Sometimes you will have to travel by train or by bus to this place as it&nbsp;can be in any of&nbsp;the 16 federal states.</li>\r\n\t<li>You must register at the registration authorities in Berlin (<a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AADiNksj-A332tZ91eUeNKIca/B_Asylverfahren/DE_Anmeldung%20MeldbehÃ¶rde_Formular.pdf?dl=0\">Anmeldung Meldebeh&ouml;rde</a>) to document that you officially live in Berlin. This registration (Anmeldung)&nbsp;is to be carried in your wallet at all times!</li>\r\n</ul>\r\n",
+        "keywords": "",
+        "position": 1
+      },
+      {
+        "category": "Asylum procedure",
+        "title": "6) Between 3-7th month",
+        "content": "<ul>\r\n\t<li>You will receive a letter, the so called &ldquo;Bescheid&rdquo;, from the relevant department that&nbsp;holds the decision to your application for asylum.&nbsp;There are two options now:</li>\r\n</ul>\r\n\r\n<p><strong>1.&nbsp;OPTION 1 &ndash; you have only applied in Germany for asylum</strong></p>\r\n\r\n<p><strong>YES, you can stay &ndash; &ldquo;Bleiberecht&rdquo; in Germany. You will receive a residence permit.</strong></p>\r\n\r\n<ul>\r\n\t<li>You have refugee protection and are allowed to stay&nbsp;for 3 years. After three years, the&nbsp;Federal Office checks whether the requirements for&nbsp;refugee protection are still fulfilled.</li>\r\n\t<li>You are granted asylum and are allowed to stay in Germany.</li>\r\n\t<li>You receive the so called subsidiary protection, which means you are not recognized as&nbsp;a refugee but for grave reasons can&rsquo;t be sent back&nbsp;to your country and therefore can&nbsp;stay in Germany.</li>\r\n</ul>\r\n\r\n<p><strong>NO, you are not allowed to stay and don&rsquo;t a receive&nbsp;residence permit (&ldquo;Bleiberecht&rdquo;)</strong></p>\r\n\r\n<ul>\r\n\t<li>You have to leave Germany</li>\r\n\t<li>You appeal against the decision of the Federal Office in the administrative court with the&nbsp;help of a lawyer. In this case, PLEASE consider the&nbsp;costs and if a lawyer will be really able&nbsp;to help.</li>\r\n</ul>\r\n\r\n<p><strong>2.&nbsp;OPTION 2 &ndash; you came via another EU country and have&nbsp;been registered there with your&nbsp;finger prints (&ldquo;Dublin Case&rdquo;)</strong></p>\r\n\r\n<ul>\r\n\t<li>Straight after the hearing your case will be transferred to the other EU country. The time&nbsp;between applying for asylum in Germany and being referred back to another EU country&nbsp;is maximum 6 months.</li>\r\n</ul>\r\n\r\n<p><strong>YES, the other EU country is taking you back</strong></p>\r\n\r\n<ul>\r\n\t<li>You will be deported to the other EU country</li>\r\n\t<li>A review of this decision and a delay are only possible through a complaint at a German&nbsp;Administration Court. You will need a German lawyer&nbsp;to do this. He/she will also be able&nbsp;to identify if there is a chance to win this case or not.</li>\r\n</ul>\r\n\r\n<p><strong>NO, the other EU country doesn&rsquo;t respond or doesn&rsquo;t&nbsp;want you back</strong></p>\r\n\r\n<ul>\r\n\t<li>In case there is no response from the other EU country within 6 months of your initial&nbsp;application in Germany, Germany will become responsible for your case.</li>\r\n\t<li>Your case will be treated &ldquo;normally&rdquo; within the German frame work of applications.</li>\r\n</ul>\r\n\r\n<p>Further steps can be discussed individually with FREEDOMUS at any time. We are happy to&nbsp;refer you to counsellors speaking your language and/or experienced lawyers dealing with&nbsp;residency issues.</p>\r\n\r\n<p>Status June 2015</p>\r\n",
+        "keywords": "",
+        "position": 5
+      },
+      {
+        "category": "Asylum procedure",
+        "title": "5) First 2-3 months in Germany",
+        "content": "<ul>\r\n\t<li>By mail you will receive an invitation to a hearing&nbsp;at the branch office of BAMF. Usually&nbsp;you will receive this invitation about 2 weeks before the actual appointment, sometimes&nbsp;you might only have a few days to prepare.</li>\r\n\t<li>Please use the <a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AADhqM2CaMyKCRcDfrzvHhqza/B_Asylverfahren/d_Dublin%20III/Fertig/25%20Fragen_BAMF/EN_25%20Fragen_bamf_2012.doc?dl=0\">catalogue of questions</a> in this chapter (25 questions travel path) for&nbsp;preparation. You will be asked about your route to&nbsp;Germany and the reasons to leave&nbsp;your country. You will be asked to produce relevant&nbsp;documentation.</li>\r\n\t<li>An interpreter will be assigned for you, please evaluate beforehand if you will be able to&nbsp;trust this person. You will be able use additional&nbsp;advisors, for example from the UNHCR&nbsp;(United Nations High Commissioner for Refugees) or&nbsp;a trauma therapist.</li>\r\n\t<li>At the end you sign a declaration that everything has been correctly translated and that&nbsp;you have understood everything.</li>\r\n</ul>\r\n\r\n<p>You can find an interview guide <a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AAD0vjvZLfe5aVb98KOo6W0-a/B_Asylverfahren/c_Anh%C3%B6rung/Fertig/Info_Anh%C3%B6rung_verschSprachen/EN_Info_Anh%C3%B6rung_Asyl%26Migr%20e.V._2009.pdf?dl=0\">here</a>.</p>\r\n",
+        "keywords": "",
+        "position": 4
+      },
+      {
+        "category": "Asylum procedure",
+        "title": "4) Within first 4 weeks",
+        "content": "<ul>\r\n\t<li>You will have your first appointment at the&nbsp;BAMF office (branch office of BAMF)</li>\r\n\t<li>Your finger prints and measurements will be taken and you will be asked about your&nbsp;way of travel. You might have come via another EU&nbsp;country and your fingerprints might&nbsp;have taken already. If this is the case you are a so called &ldquo;<a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABxsejrhYVXw_1lqzzn9abha/B_Asylverfahren/d_Dublin%20III/Fertig/Info_Dublin%20-%20was%20nun%3F_Fl%C3%BCchtlingsratBrand_verschSprachen_Aug2014/EN_Dublin-was%20nun%3F_Fl%C3%BCchtlingsratBrand_Aug2014.pdf?dl=0\">Dublin case</a>&rdquo;.</li>\r\n\t<li>Here you fill in a formal application for asylum and will receive a new certificate that&nbsp;many call&nbsp;&ldquo;AUSWEIS&rdquo;.</li>\r\n\t<li><strong>VERY IMPORTANT</strong>: Please check the address on your certificate/Ausweis, you have to be&nbsp;reachable at all times! Take with you information material/brochures about counseling&nbsp;offices that offer free services and that you will&nbsp;be visiting the next days.</li>\r\n\t<li>Your Status:&nbsp;You are now an official asylum seeker and are not allowed to work for the&nbsp;next&nbsp;three months. You are also not allowed to leave your state of residency&nbsp;(&ldquo;Residenzpflicht&rdquo;). At this&nbsp;point of time you have no possibility to rent an apartment. You are encouraged to learn&nbsp;German, but have to find a course yourself and also&nbsp;pay for yourself (see chapter&nbsp;Learning German). Children between 6 and 15 years have the right to visit a school&nbsp;immediately after arrival (&ldquo;Schulpflicht&rdquo;). Smaller&nbsp;children can attend a Kindergarten.&nbsp;Please talk to your counselor and also FREEDOMUS is&nbsp;here to give advice!</li>\r\n\t<li>Usually you stay for about 3 months, sometimes longer, in the initial reception center,&nbsp;where you get a meal in the morning, at lunch and dinner time. After that you will be,&nbsp;within the current state of residency, referred to community or private housing. The LaGeSo (see below) is&nbsp;responsible for the referrals.</li>\r\n\t<li>You wait for the invitation to a hearing from BAMF.</li>\r\n</ul>\r\n\r\n<p><strong>In-between steps &ndash; what has to be done monthly</strong></p>\r\n\r\n<ul>\r\n\t<li>Usually you will have monthly appointments at the State Office for Health and Social&nbsp;Issues (LaGeSo or &ldquo;Sozial&rdquo;). From this place you will get pocket money (140,- Euros next&nbsp;to full board in your initial reception facility),&nbsp;green vouchers for health treatment,&nbsp;allocation of living space, etc</li>\r\n\t<li>You have to be there really early as there are long&nbsp;queues. Make sure you bring enough&nbsp;water and food!</li>\r\n</ul>\r\n",
+        "keywords": "",
+        "position": 3
+      }
+    ],
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/2/normal_asylumprocedure.png?1443640166"
+  },
+  {
+    "position": 9,
+    "name": "Culture",
+    "language": "7e24acb850110f59",
+    "articles": [
+      {
+        "category": "Culture",
+        "title": "Short introduction",
+        "content": "<p>A good and short overview about</p>\r\n\r\n<ul>\r\n\t<li>Geographical location</li>\r\n\t<li>Population</li>\r\n\t<li>Infrastructure</li>\r\n\t<li>Constitution</li>\r\n\t<li>Political system etc</li>\r\n</ul>\r\n\r\n<p>is given in <a href=\"http://www1.american.edu/initeb/es0939a/germany.htm\">this link</a>.</p>\r\n",
+        "keywords": "",
+        "position": 0
+      }
+    ],
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/10/normal_noun_50020_cc.png?1443640233"
   },
   {
     "position": 5,
@@ -51,12 +259,12 @@
       {
         "category": "Learning German",
         "title": "Berlin-specific information",
-        "content": "<p style=\"margin-left:18.0pt\">If you are registered with Freedomus at Elisabethenhaus in Berlin-Mitte, they will&nbsp;sponsor you by paying for half of the cost of your first German language course. Here is the <a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABBd8hjbcrhvEkClgmQi-Gya/D_Deutsch%20lernen/Fertig/DE_Sponsor%20Zertifikat.pdf?dl=0\">form</a> which needs to be filled out.</p>\r\n\r\n<ul>\r\n\t<li>Please contact Freedomus for the selection of the public school (Volkshochschule =&nbsp;VHS), accompaniment to the entrance examinations and the registration at the VHS and a sponsor certificate.</li>\r\n\t<li>Please contact Freedomus about financing, even if you are unsure whether you qualify or not.</li>\r\n</ul>\r\n\r\n<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width:500px\">\r\n\t<tbody>\r\n\t\t<tr>\r\n\t\t\t<td>VHS Mitte</td>\r\n\t\t\t<td>VHS Friedrichshain-Kreuzberg</td>\r\n\t\t\t<td>VHS Pankow</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Mathilde-Jacob-Platz 1</td>\r\n\t\t\t<td>Frankfurter Allee 37</td>\r\n\t\t\t<td>Schulstrasse 29</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>10551 Berlin</td>\r\n\t\t\t<td>10247 Berlin</td>\r\n\t\t\t<td>13187 Berlin</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Tel. 030 90183744</td>\r\n\t\t\t<td>Tel. 030 902984600</td>\r\n\t\t\t<td>Tel. 030 902951700</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>Fax.&nbsp;030 901837488</td>\r\n\t\t\t<td>Fax.&nbsp;030 902984176</td>\r\n\t\t\t<td>Fax.&nbsp;030 902951701</td>\r\n\t\t</tr>\r\n\t\t<tr>\r\n\t\t\t<td>E-Mail:&nbsp;<a href=\"mailto:anmeldung@city-vhs.de\">anmeldung@city-vhs.de</a></td>\r\n\t\t\t<td>E-Mail:&nbsp;<a href=\"mailto:info@vhs-fk.de\">info@vhs-fk.de</a></td>\r\n\t\t\t<td>E-Mail:&nbsp;<a href=\"mailto:post@vhspankow.de\">post@vhspankow.de</a></td>\r\n\t\t</tr>\r\n\t</tbody>\r\n</table>\r\n\r\n<p>Of course, there are also other organizations that can help you to quickly immerse yourself into the German language. For example, the btb at Alexanderplatz, which offers free German language courses for people under 27 years old.</p>\r\n",
+        "content": "<p style=\"margin-left:18.0pt\">If you are registered with Freedomus at Elisabethenhaus in Berlin-Mitte, they will&nbsp;sponsor you by paying for half of the cost of your first German language course. Here is the <a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABBd8hjbcrhvEkClgmQi-Gya/D_Deutsch%20lernen/Fertig/DE_Sponsor%20Zertifikat.pdf?dl=0\">form</a> which needs to be filled out.</p>\r\n\r\n<ul>\r\n\t<li>Please contact Freedomus for the selection of the public school (Volkshochschule =&nbsp;VHS), accompaniment to the entrance examinations and the registration at the VHS and a sponsor certificate.</li>\r\n\t<li>Please contact Freedomus about financing, even if you are unsure whether you qualify or not.</li>\r\n</ul>\r\n\r\n<p>VHS Mitte<br />\r\nMathilde-Jacob-Platz 1<br />\r\n10551 Berlin<br />\r\nTel. 030 90183744<br />\r\nFax.&nbsp;030 901837488<br />\r\nE-Mail:&nbsp;<a href=\"mailto:anmeldung@city-vhs.de\">anmeldung@city-vhs.de</a></p>\r\n\r\n<p>VHS Friedrichshain-Kreuzberg<br />\r\nFrankfurter Allee 37<br />\r\n10247 Berlin<br />\r\nTel. 030 902984600<br />\r\nFax.&nbsp;030 902984176<br />\r\nE-Mail:&nbsp;<a href=\"mailto:info@vhs-fk.de\">info@vhs-fk.de</a></p>\r\n\r\n<p>VHS Pankow<br />\r\nSchulstrasse 29<br />\r\n13187 Berlin<br />\r\nTel. 030 902951700<br />\r\nFax.&nbsp;030 902951701<br />\r\nE-Mail:&nbsp;<a href=\"mailto:post@vhspankow.de\">post@vhspankow.de</a></p>\r\n\r\n<p>Of course, there are also other organizations that can help you to quickly immerse yourself into the German language. For example, the btb at Alexanderplatz, which offers free German language courses for people under 27 years old<br />\r\n<br />\r\n.</p>\r\n",
         "keywords": "vhs",
         "position": 1
       }
     ],
-    "icon": "/icons/normal/missing.png"
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/6/normal_noun_72712_cc.png?1443640559"
   },
   {
     "position": 6,
@@ -92,29 +300,7 @@
         "position": 2
       }
     ],
-    "icon": "/icons/normal/missing.png"
-  },
-  {
-    "position": 8,
-    "name": "School and kindergarten",
-    "language": "7e24acb850110f59",
-    "articles": [
-      {
-        "category": "School and kindergarten",
-        "title": "Berlin-specific information",
-        "content": "<p><u>Kindergarten/Nursery School/Pre-School</u><br />\r\nIn Berlin, district&nbsp;Mitte, the following Kitas have experience in dealing with refugee children: Sophienkita (Sophienstra&szlig;e), Pre School at Berlin Metropolitan School (Linienstra&szlig;e) and Herz Jesu Kita (Sch&ouml;nhauser Allee).</p>\r\n\r\n<p><u>School</u><br />\r\nIn Berlin there are only all-day schools which means that children will stay at school from 8:00am until 16:00pm.&nbsp;In different districts of Berlin schools offer so called &ldquo;welcome classes&rdquo; for refugee children. These classes help introduce the German school system and the German language in a relaxed and non-threatening way.</p>\r\n",
-        "keywords": "",
-        "position": 1
-      },
-      {
-        "category": "School and kindergarten",
-        "title": "General Information",
-        "content": "<p>A warm welcome to you and your children in Germany! Here you have the possibility to put your child in a professional child care from early age onwards. From age 6 there is compulsory schooling in Germany and it lasts until age 15.</p>\r\n\r\n<p><strong>Kindergarten/Nursery School/Pre-School</strong><br />\r\nIn general it&rsquo;s possible from<strong> before</strong> the age of 6 to put your child into a Kindergarten (&ldquo;Kita&rdquo;). This is a wonderful opportunity for your child to meet other children, to play and to be looked after in a professional manner. In a Kita the children will also eat together in case they stay from morning until afternoon.&nbsp;Your child can &ndash; depending on the contract &ndash; visit the Kita from 8:00 am to 16:00.</p>\r\n\r\n<p>In order for your child to visit a Kita you need to fill in an application (&ldquo;Kita &ndash; Gutschein&rdquo;) that you will get at the Youth Welfare Service (&ldquo;Jugendamt&rdquo;). It&rsquo;s also necessary to find a Kita that is willing and able to take on your child. Spaces in Kitas are very sought after.</p>\r\n\r\n<p><strong>School</strong><br />\r\nIn Germany, any child between 6 and 15 years &ndash; also a refugee child &ndash; is obliged to attend school. This means that after your arrival it&rsquo;s necessary to swiftly register your child with a school. Children go to&nbsp;elementary school&nbsp;for 4 years, so from about the age of 6 to 10. This is followed by&nbsp;secondary school. There are 4 different kinds of secondary schools:</p>\r\n\r\n<ul>\r\n\t<li>Hauptschule: focuses on practical skills, duration of 5 years (so until about age 15)</li>\r\n\t<li>Realschule: focuses on practical and theoretical skills, duration of 6 years</li>\r\n\t<li>Gynmasium: focuses on theoretical skills, duration of 8 years, end with diploma which entitles to go to university (&quot;Abitur&quot;)</li>\r\n\t<li>Gesamtschule: mix of all school forms, possibility to end after 5, 6 or 8 years</li>\r\n</ul>\r\n\r\n<p>In different districts of Berlin schools offer so called &ldquo;welcome classes&rdquo; for refugee children. These classes help introduce the German school system and the German language in a relaxed and non-threatening way.</p>\r\n",
-        "keywords": "",
-        "position": 0
-      }
-    ],
-    "icon": "/icons/normal/missing.png"
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/7/normal_Picture2.png?1443640734"
   },
   {
     "position": 7,
@@ -138,135 +324,34 @@
       {
         "category": "Health",
         "title": "Vaccinations",
-        "content": "<p>Vaccinations are absolutely essential and can save lives! They protect you and your kids from bad diseases and are completely harmless. All vaccinations are voluntary in Germany. Certain vaccinations are, however, strongly recommended, such as the combined measles, mumps and rubella vaccination.</p>\r\n\r\n<p><u>Vaccination Pass (yellow <em>Impfpass</em>): </u></p>\r\n\r\n<ul>\r\n\t<li>Your reception facility / <em>Heim</em> will provide you with an <em>Impfpass</em> or Vaccination Pass. If this is not the case, please ask any doctor for one.</li>\r\n\t<li>All vaccinations you receive are documented directly in the Impfpass, so that at any time you have proof of what you have been vaccinated against.</li>\r\n\t<li><u>IMPORTANT!</u> Do not retrospectively get vaccinations documented, as you are then considered <u>not</u> vaccinated.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><u>Calendar of vaccinations:</u></p>\r\n\r\n<ul>\r\n\t<li>There is a simple calendar which shows you at what age and under what circumstances it is best to vaccinate you and your kid/s. Please consult a doctor.</li>\r\n\t<li>As infectious diseases are especially critical for babies and little children, first vaccinations should take place within the first three months. As a general rule, children should have received all relevant vaccinations once they are 14 years of age.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><u>Where can you go for vaccinations?</u></p>\r\n\r\n<ul>\r\n\t<li>Any doctor can vaccinate you. The standard vaccinations for children are generally provided by the pediatrician as part of the check-ups (U <em>Untersuchungen</em>).</li>\r\n\t<li>If you are unsure, whether you have been vaccinated before, please consult your doctor.</li>\r\n\t<li><u>IMPORTANT!</u> Every vaccination counts! A safe protection only exists, if you are fully vaccinated and ensure that refresher are given regularly.</li>\r\n</ul>\r\n",
-        "keywords": "",
+        "content": "<p><img alt=\"\" src=\"http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/8/original_picture1.png\" style=\"width: 100%;\" />Vaccinations are absolutely essential and can save lives! They protect you and your kids from bad diseases and are completely harmless. All vaccinations are voluntary in Germany. Certain vaccinations are, however, strongly recommended, such as the combined measles, mumps and rubella vaccination.</p>\r\n\r\n<p><u>Vaccination Pass (yellow <em>Impfpass</em>): </u></p>\r\n\r\n<ul>\r\n\t<li>Your reception facility / <em>Heim</em> will provide you with an <em>Impfpass</em> or Vaccination Pass. If this is not the case, please ask any doctor for one.</li>\r\n\t<li>All vaccinations you receive are documented directly in the Impfpass, so that at any time you have proof of what you have been vaccinated against.</li>\r\n\t<li><u>IMPORTANT!</u> Do not retrospectively get vaccinations documented, as you are then considered <u>not</u> vaccinated.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><u>Calendar of vaccinations:</u></p>\r\n\r\n<ul>\r\n\t<li>There is a simple calendar which shows you at what age and under what circumstances it is best to vaccinate you and your kid/s. Please consult a doctor.</li>\r\n\t<li>As infectious diseases are especially critical for babies and little children, first vaccinations should take place within the first three months. As a general rule, children should have received all relevant vaccinations once they are 14 years of age.</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><u>Where can you go for vaccinations?</u></p>\r\n\r\n<ul>\r\n\t<li>Any doctor can vaccinate you. The standard vaccinations for children are generally provided by the pediatrician as part of the check-ups (U <em>Untersuchungen</em>).</li>\r\n\t<li>If you are unsure, whether you have been vaccinated before, please consult your doctor.</li>\r\n\t<li><u>IMPORTANT!</u> Every vaccination counts! A safe protection only exists, if you are fully vaccinated and ensure that refresher are given regularly.</li>\r\n</ul>\r\n",
+        "keywords": "vaccination,health,doctor",
         "position": 2
       }
     ],
-    "icon": "/icons/normal/missing.png"
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/8/normal_noun_15471_cc.png?1443641039"
   },
   {
-    "position": 9,
-    "name": "Culture",
+    "position": 8,
+    "name": "School and kindergarten",
     "language": "7e24acb850110f59",
     "articles": [
       {
-        "category": "Culture",
-        "title": "Short introduction",
-        "content": "<p>A good and short overview about</p>\r\n\r\n<ul>\r\n\t<li>Geographical location</li>\r\n\t<li>Population</li>\r\n\t<li>Infrastructure</li>\r\n\t<li>Constitution</li>\r\n\t<li>Political system etc</li>\r\n</ul>\r\n\r\n<p>is given in <a href=\"http://www1.american.edu/initeb/es0939a/germany.htm\">this link</a>.</p>\r\n",
-        "keywords": "",
-        "position": 0
-      }
-    ],
-    "icon": "/icons/normal/missing.png"
-  },
-  {
-    "position": 1,
-    "name": "Asylum procedure",
-    "language": "7e24acb850110f59",
-    "articles": [
-      {
-        "category": "Asylum procedure",
-        "title": "2 First few days",
-        "content": "<ul>\r\n\t<li>You will be assigned to an initial reception facility (Erstaufnahmeeinrichtung).&nbsp;Sometimes you will have to travel by train or by bus to this place as it&nbsp;can be in any of&nbsp;the 16 federal states.</li>\r\n\t<li>You must register at the registration authorities in Berlin (Anmeldung Meldebeh&ouml;rde,&nbsp;Bezirksamt) to document that you officially live in Berlin. This registration (Anmeldung)&nbsp;is to be carried in your wallet at all times!</li>\r\n</ul>\r\n",
+        "category": "School and kindergarten",
+        "title": "Berlin-specific information",
+        "content": "<p><u>Kindergarten/Nursery School/Pre-School</u><br />\r\nIn Berlin, district&nbsp;Mitte, the following Kitas have experience in dealing with refugee children: Sophienkita (Sophienstra&szlig;e), Pre School at Berlin Metropolitan School (Linienstra&szlig;e) and Herz Jesu Kita (Sch&ouml;nhauser Allee).</p>\r\n\r\n<p><u>School</u><br />\r\nIn Berlin there are only all-day schools which means that children will stay at school from 8:00am until 16:00pm.&nbsp;In different districts of Berlin schools offer so called &ldquo;welcome classes&rdquo; for refugee children. These classes help introduce the German school system and the German language in a relaxed and non-threatening way.</p>\r\n",
         "keywords": "",
         "position": 1
       },
       {
-        "category": "Asylum procedure",
-        "title": "3 After moving into a initial reception facility",
-        "content": "<ul>\r\n\t<li>You register with the Central Immigration Authority, the ZAA or the&nbsp;Zentrales&nbsp;Ausl&auml;nderamt&nbsp;as it&rsquo;s called or the&nbsp;LaBo&nbsp;as it&rsquo;s called in Berlin.</li>\r\n\t<li>A file with all your information will be created, also with a photo of yours. A doctor will&nbsp;be examining you.</li>\r\n\t<li>At BAMF you will get an appointment for applying for asylum. BAMF stands for&nbsp;Bundesamt f&uuml;r Migration und Fl&uuml;chtlinge. BAMF is the office that&nbsp;decides about your&nbsp;application.</li>\r\n</ul>\r\n",
+        "category": "School and kindergarten",
+        "title": "General Information",
+        "content": "<p>A warm welcome to you and your children in Germany! Here you have the possibility to put your child in a professional child care from early age onwards. From age 6 there is compulsory schooling in Germany and it lasts until age 15.</p>\r\n\r\n<p><strong>Kindergarten/Nursery School/Pre-School</strong><br />\r\nIn general it&rsquo;s possible from<strong> before</strong> the age of 6 to put your child into a Kindergarten (&ldquo;Kita&rdquo;). This is a wonderful opportunity for your child to meet other children, to play and to be looked after in a professional manner. In a Kita the children will also eat together in case they stay from morning until afternoon.&nbsp;Your child can &ndash; depending on the contract &ndash; visit the Kita from 8:00 am to 16:00.</p>\r\n\r\n<p>In order for your child to visit a Kita you need to fill in an application (&ldquo;Kita &ndash; Gutschein&rdquo;) that you will get at the Youth Welfare Service (&ldquo;Jugendamt&rdquo;). It&rsquo;s also necessary to find a Kita that is willing and able to take on your child. Spaces in Kitas are very sought after.</p>\r\n\r\n<p><strong>School</strong><br />\r\nIn Germany, any child between 6 and 15 years &ndash; also a refugee child &ndash; is obliged to attend school. This means that after your arrival it&rsquo;s necessary to swiftly register your child with a school. Children go to&nbsp;elementary school&nbsp;for 4 years, so from about the age of 6 to 10. This is followed by&nbsp;secondary school. There are 4 different kinds of secondary schools:</p>\r\n\r\n<ul>\r\n\t<li>Hauptschule: focuses on practical skills, duration of 5 years (so until about age 15)</li>\r\n\t<li>Realschule: focuses on practical and theoretical skills, duration of 6 years</li>\r\n\t<li>Gynmasium: focuses on theoretical skills, duration of 8 years, end with diploma which entitles to go to university (&quot;Abitur&quot;)</li>\r\n\t<li>Gesamtschule: mix of all school forms, possibility to end after 5, 6 or 8 years</li>\r\n</ul>\r\n\r\n<p>In different districts of Berlin schools offer so called &ldquo;welcome classes&rdquo; for refugee children. These classes help introduce the German school system and the German language in a relaxed and non-threatening way.</p>\r\n",
         "keywords": "",
-        "position": 2
-      },
-      {
-        "category": "Asylum procedure",
-        "title": "1 Arrival in Germany",
-        "content": "<ul>\r\n\t<li>\r\n\t<p>Contact a police station immediately when arriving&nbsp;in Germany</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You will be registered with your personal data and&nbsp;your country of origin</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You will be referred to one of the 16 federal states within Germany</p>\r\n\t</li>\r\n\t<li>\r\n\t<p>You receive a certificate of registration as an asylum seeker&nbsp;(&ldquo;B&Uuml;MA&rdquo;). Please carry this&nbsp;with you at all times.</p>\r\n\t</li>\r\n</ul>\r\n",
-        "keywords": "",
-        "position": 0
-      },
-      {
-        "category": "Asylum procedure",
-        "title": "4 Within first four weeks in Germany",
-        "content": "<ul>\r\n\t<li>You will have your first appointment at the&nbsp;BAMF office (branch office of BAMF)</li>\r\n\t<li>Your finger prints and measurements will be taken and you will be asked about your&nbsp;way of travel. You might have come via another EU&nbsp;country and your fingerprints might&nbsp;have taken already. If this is the case you are a so called &ldquo;Dublin case&rdquo;.</li>\r\n\t<li>Here you fill in a formal application for asylum and will receive a new certificate that&nbsp;many call&nbsp;&ldquo;AUSWEIS&rdquo;.</li>\r\n\t<li><strong>VERY IMPORTANT</strong>: Please check the address on your certificate/Ausweis, you have to be&nbsp;reachable at all times! Take with you information material/brochures about counseling&nbsp;offices that offer free services and that you will&nbsp;be visiting the next days.</li>\r\n\t<li>Your Status:&nbsp;You are now an official asylum seeker and are not allowed to work for the&nbsp;next&nbsp;three months. You are also not allowed to leave your state of residency&nbsp;(&ldquo;Residenzpflicht&rdquo;). At this&nbsp;point of time you have no possibility to rent an apartment. You are encouraged to learn&nbsp;German, but have to find a course yourself and also&nbsp;pay for yourself (see chapter&nbsp;Learning German). Children between 6 and 15 years have the right to visit a school&nbsp;immediately after arrival (&ldquo;Schulpflicht&rdquo;). Smaller&nbsp;children can attend a Kindergarten.&nbsp;Please talk to your counselor and also FREEDOMUS is&nbsp;here to give advice!</li>\r\n\t<li>Usually you stay for about 3 months, sometimes longer, in the initial reception center,&nbsp;where you get a meal in the morning, at lunch and dinner time. After that you will be,&nbsp;within the current state of residency, referred to community or private housing. The LaGeSo (see below) is&nbsp;responsible for the referrals.</li>\r\n\t<li>You wait for the invitation to a hearing from BAMF.</li>\r\n</ul>\r\n\r\n<p><strong>In-between steps &ndash; what has to be done monthly</strong></p>\r\n\r\n<ul>\r\n\t<li>Usually you will have monthly appointments at the State Office for Health and Social&nbsp;Issues (LaGeSo or &ldquo;Sozial&rdquo;). From this place you will get pocket money (140,- Euros next&nbsp;to full board in your initial reception facility),&nbsp;green vouchers for health treatment,&nbsp;allocation of living space, etc</li>\r\n\t<li>You have to be there really early as there are long&nbsp;queues. Make sure you bring enough&nbsp;water and food!</li>\r\n</ul>\r\n",
-        "keywords": "",
-        "position": 3
-      },
-      {
-        "category": "Asylum procedure",
-        "title": "5 First two to three months in Germany",
-        "content": "<ul>\r\n\t<li>By mail you will receive an invitation to a hearing&nbsp;at the branch office of BAMF. Usually&nbsp;you will receive this invitation about 2 weeks before the actual appointment, sometimes&nbsp;you might only have a few days to prepare.</li>\r\n\t<li>Please use the catalogue of questions in this chapter (25 questions travel path) for&nbsp;preparation. You will be asked about your route to&nbsp;Germany and the reasons to leave&nbsp;your country. You will be asked to produce relevant&nbsp;documentation.</li>\r\n\t<li>An interpreter will be assigned for you, please evaluate beforehand if you will be able to&nbsp;trust this person. You will be able use additional&nbsp;advisors, for example from the UNHCR&nbsp;(United Nations High Commissioner for Refugees) or&nbsp;a trauma therapist.</li>\r\n\t<li>At the end you sign a declaration that everything has been correctly translated and that&nbsp;you have understood everything.</li>\r\n</ul>\r\n",
-        "keywords": "",
-        "position": 4
-      },
-      {
-        "category": "Asylum procedure",
-        "title": " 6 Between the third and the seventh month",
-        "content": "<ul>\r\n\t<li>You will receive a letter, the so called &ldquo;Bescheid&rdquo;, from the relevant department that&nbsp;holds the decision to your application for asylum.&nbsp;There are two options now:</li>\r\n</ul>\r\n\r\n<p><strong>1.&nbsp;OPTION 1 &ndash; you have only applied in Germany for asylum</strong></p>\r\n\r\n<p><strong>YES, you can stay &ndash; &ldquo;Bleiberecht&rdquo; in Germany. You will receive a residence permit.</strong></p>\r\n\r\n<ul>\r\n\t<li>You have refugee protection and are allowed to stay&nbsp;for 3 years. After three years, the&nbsp;Federal Office checks whether the requirements for&nbsp;refugee protection are still fulfilled.</li>\r\n\t<li>You are granted asylum and are allowed to stay in Germany.</li>\r\n\t<li>You receive the so called subsidiary protection, which means you are not recognized as&nbsp;a refugee but for grave reasons can&rsquo;t be sent back&nbsp;to your country and therefore can&nbsp;stay in Germany.</li>\r\n</ul>\r\n\r\n<p><strong>NO, you are not allowed to stay and don&rsquo;t a receive&nbsp;residence permit (&ldquo;Bleiberecht&rdquo;)</strong></p>\r\n\r\n<ul>\r\n\t<li>You have to leave Germany</li>\r\n\t<li>You appeal against the decision of the Federal Office in the administrative court with the&nbsp;help of a lawyer. In this case, PLEASE consider the&nbsp;costs and if a lawyer will be really able&nbsp;to help.</li>\r\n</ul>\r\n\r\n<p><strong>2.&nbsp;OPTION 2 &ndash; you came via another EU country and have&nbsp;been registered there with your&nbsp;finger prints (&ldquo;Dublin Case&rdquo;)</strong></p>\r\n\r\n<ul>\r\n\t<li>Straight after the hearing your case will be transferred to the other EU country. The time&nbsp;between applying for asylum in Germany and being referred back to another EU country&nbsp;is maximum 6 months.</li>\r\n</ul>\r\n\r\n<p><strong>YES, the other EU country is taking you back</strong></p>\r\n\r\n<ul>\r\n\t<li>You will be deported to the other EU country</li>\r\n\t<li>A review of this decision and a delay are only possible through a complaint at a German&nbsp;Administration Court. You will need a German lawyer&nbsp;to do this. He/she will also be able&nbsp;to identify if there is a chance to win this case or not.</li>\r\n</ul>\r\n\r\n<p><strong>NO, the other EU country doesn&rsquo;t respond or doesn&rsquo;t&nbsp;want you back</strong></p>\r\n\r\n<ul>\r\n\t<li>In case there is no response from the other EU country within 6 months of your initial&nbsp;application in Germany, Germany will become responsible for your case.</li>\r\n\t<li>Your case will be treated &ldquo;normally&rdquo; within the German frame work of applications.</li>\r\n</ul>\r\n\r\n<p>Further steps can be discussed individually with FREEDOMUS at any time. We are happy to&nbsp;refer you to counsellors speaking your language and/or experienced lawyers dealing with&nbsp;residency issues.</p>\r\n\r\n<p>Status June 2015</p>\r\n",
-        "keywords": "",
-        "position": 5
-      }
-    ],
-    "icon": "/icons/normal/missing.png"
-  },
-  {
-    "position": 4,
-    "name": "Transportation",
-    "language": "7e24acb850110f59",
-    "articles": [
-      {
-        "category": "Transportation",
-        "title": "Getting around",
-        "content": "<p>With a valid ticket you can use all public transport in Berlin: S-Bahn (suburban trains), U-Bahn (underground trains), busses and tramways. The price of the ticket depends on the zone you travel in and the period you need the ticket for (i.e. just for one trip, for one day, for one week or for an entire month etc.)</p>\r\n\r\n<p><strong>Zones and Maps: </strong>In Berlin there are three travel zones: AB, BC and ABC. Zone AB comprises the entire city of Berlin up to the city boundary. Zone ABC additionally comprises the surroundings of Berlin and Potsdam. You will find maps of the public transport in all stations. The various lines are marked with different symbols and colors. The U stands for U-Bahn (underground train) and the S stands for S-Bahn (suburban train). For example, on the public transport map, you will find the line U5 is colored in brown and the line S7 is colored in purple.</p>\r\n\r\n<p><strong>Fares</strong></p>\r\n\r\n<ul>\r\n\t<li><strong>Single Ticket (Einzelfahrschein):</strong> With a single ticket, one person can use the public transport for two hours in any direction. You cannot use a single ticket, however, to return to the station where you originally started from.&nbsp;Price: Zone AB: 2,70 EURO; Reduced: 1,70 EURO. Zone ABC: 3,30 EURO; Reduced: 2,40 EURO</li>\r\n\t<li><strong>Single Short Trip Ticket (Kurzstrecke): </strong>You can use a short trip&nbsp;ticket if you only travel three stops by U-Bahn (underground) or S-Bahn (suburban train). On the bus or tramway you can use a short trip&nbsp;ticket for travelling up to six stops without change of lines.&nbsp;Price: 1,60 EURO, Reduced 1,20 EURO.</li>\r\n\t<li><strong>Tickets for Children:</strong> Children up to the age of six years do not need a ticket when travelling with an adult. Children between six and fourteen years of age need a reduced ticket for 1,70 EURO in Zone AB no matter if single ticket or short trip ticket.</li>\r\n\t<li><strong>Day Ticket (Tageskarte) for 1 person: </strong>With a day ticket, you can use all public transport for the entire day. It is valid from the time you stamp it until the next day 3am. A Day Ticket for one person costs 6,90 EURO in Zone AB, the reduced price is 4,70 EURO.</li>\r\n\t<li><strong>7-Day-Ticket for 1 person: </strong>The 7-Day-Ticket is valid for seven consecutive days from the day it is validated by stamping. It costs 29,50 EURO. The 7-Day-Ticket loses its validity on the seventh day at midnight.</li>\r\n\t<li><strong>Day-Ticket for Small Groups (Kleingruppen-Tageskarte)</strong>: This ticket is valid for up to five persons travelling together for all public transport from the time you stamp it until the next day 3am. For zone AB it costs 16,90 EUROS.</li>\r\n\t<li><strong>Monthly Ticket (Monatskarte)</strong>: You can choose if this ticket should be valid for one month (e.g. October) or for 30 days (e.g. October 12 to November 11). It costs 79.50 EURO.</li>\r\n</ul>\r\n\r\n<p>For more information on the tickets, please visit:&nbsp;https://shop.bvg.de/index.php/tickets</p>\r\n\r\n<p><strong>&bdquo;Berlinpass&ldquo;: </strong>When you arrive in Berlin, you will receive the so-called berlinpass. Amongst other things, it will give you a discount for getting around in Berlin by public transport (BVG). A monthly card AB (Berlin-Ticket S) costs EURO 36 with berlinpass and is valid from the first date of each month until the last date of the same month.&nbsp; You can buy it only in the train stations.</p>\r\n\r\n<p><strong>Buying a Ticket: </strong>You can buy a ticket at the ticket machine on the platforms of the U-Bahn and the S-Bahn. The ticket machines have options for various languages so you can choose the language you are most comfortable with. When using a bus, you buy your ticket from the bus driver. For the tramway you get your ticket at the ticket machine inside the tramway. At larger stations there are also booths where you can buy your ticket.</p>\r\n\r\n<p><strong>Validate Your Ticket: </strong>Before you start your journey you need to validate your ticket. You do this by stamping the ticket at one of the yellow or red boxes on the platforms, inside the busses or the tramways. Please note that without this stamp the ticket is regarded as invalid!</p>\r\n\r\n<p><strong>Fare-Dodging in Berlin: </strong>If you use public transport without a valid ticket and you come across a ticket inspector, you will be asked to pay an &ldquo;increased fare&rdquo; of EURO 60. In this context, please remember that you need to stamp your ticket to validate it. The ticket inspectors do not make any exceptions for passengers unaware of these rules. A ticket inspector may ask you to show proof of your identity. If there are any problems the police might be called.</p>\r\n",
-        "keywords": "transportation,u bahn,s bahn,ticket,public transport,bus,tram",
         "position": 0
       }
     ],
-    "icon": "/icons/normal/missing.png"
-  },
-  {
-    "position": 2,
-    "name": "Housing",
-    "language": "7e24acb850110f59",
-    "articles": [
-      {
-        "category": "Housing",
-        "title": "On arrival",
-        "content": "<p>You will live in initial reception facility (<i>Erstaufnahmeeinrichtung</i>) for a maximum of 3 months. After that you are transferred to another facility&nbsp;(shared accommodation / <i>Gemeinschaftsunterkunft</i>). This transfer is regulated by the State Office for Health and Social Issues (<i>LaGeSo, Sozial</i>). There are regulatory exceptions if other family members live in Germany or for other specific reasons.</p>\r\n",
-        "keywords": "housing,reception facility,Erstaufnahmeeinrichtung",
-        "position": 0
-      },
-      {
-        "category": "Housing",
-        "title": "After 3 months - Berlin info",
-        "content": "<p>Evangelische Jugend- und F&uuml;rsorgewerk (EJF) is responsible for the mediation of apartments in Berlin. After your registration the EJF will take over the task of finding the suitable apartment. However, there is growing demand for apartments that exceeds supply.</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>EJF (Evangelisches Jugend- und F&uuml;rsorgewerk)<br />\r\nWohnungen f&uuml;r Fl&uuml;chtlinge (Housing for refugees)<br />\r\nBeratung und Vermittlung (Consulting and mediation)<br />\r\nTurmstr. 21, Haus K<br />\r\n10559 Berlin (Moabit)<br />\r\nTel. (030) 30 873-652<br />\r\nFax (030) 30 873-663<br />\r\nE-Mail:&nbsp;wohnungen-fuer-fluechtlinge@ejf.de</p>\r\n",
-        "keywords": "ejf,housing berlin",
-        "position": 2
-      },
-      {
-        "category": "Housing",
-        "title": "After recognition",
-        "content": "<p>With your recognition your status will change. Then you can search for a flat on the &bdquo;free market&ldquo;. Jobcenter pays the rent for an apartment under the so-called KDU <i>(&ldquo;Kosten der Unterkunft&rdquo;</i>). This means that Jobcenter pays your rent as long as you can&rsquo;t pay it yourself (you don&rsquo;t work (yet) or you do not earn enough to pay the rent).</p>\r\n",
-        "keywords": "housing,recognition,KDU",
-        "position": 3
-      },
-      {
-        "category": "Housing",
-        "title": "After 3 months",
-        "content": "<p>Basically, you can get a permission for individual housing search from LaGeSo on the expiry of the 3 months&nbsp;if this has not come automatically in the post. Then, you have the right for private living. The rental and running costs (water, etc.) as well as the key money will be taken over by the LaGeSo (this is different for refugees with recognition).</p>\r\n",
-        "keywords": "housing",
-        "position": 1
-      },
-      {
-        "category": "Housing",
-        "title": "Tips to find housing",
-        "content": "<p><strong>1. Finding an apartment on the internet</strong></p>\r\n\r\n<ul>\r\n\t<li><a href=\"http://www.immobilienscout.de\">www.immobilienscout.de</a> (small flats/shared apartments)</li>\r\n\t<li><a href=\"http://www.wg-suche.de\">www.wg-suche.de</a></li>\r\n\t<li><a href=\"http://www.studenten-wg.de\">www.studenten-wg.de</a>: here you have to pay a one-off fee (&euro;100) and a cash deposit of &euro;750 (one-time). The rental fee includes all running costs and the rooms are furnished (including electrical devices).</li>\r\n\t<li><a href=\"http://www.kleinanzeigen.ebay.de\">www.kleinanzeigen.ebay.de</a> / Section &bdquo;auf Zeit &amp; WG&ldquo; &ndash; offers of furnished rooms, also of sublease for 1-1,5 years.</li>\r\n\t<li><a href=\"http://www.wg-gesucht.de\">www.wg-gesucht.de</a> (you have to fill out a search mask)</li>\r\n\t<li>www.fl&uuml;chtlinge-willkommen.de (to announce a shared apartment )</li>\r\n\t<li>www.sharehaus.net (circle of friends)</li>\r\n</ul>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>2. <strong>Schufa</strong> (credit report), there are 3 ways of getting it:</p>\r\n\r\n<ul>\r\n\t<li><a href=\"https://drive.google.com/open?id=0B4COzbmRKC-aTmlVRVZLUVdMN3M\">Via post</a>&nbsp;/ takes 14 days / for free once per year\r\n\r\n\t<ul>\r\n\t\t<li>Fill out form</li>\r\n\t\t<li>Include copy of passport</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.meineschufa.de%2Findex.php%3Fsite%3D7&amp;sa=D&amp;sntz=1&amp;usg=AFrqEzfbEdA11G88wpXFxls669YggjVmpg\">Online</a>&nbsp;/ same day / 24.95&euro;\r\n\t<ul>\r\n\t\t<li>unfortunately site only in German</li>\r\n\t</ul>\r\n\t</li>\r\n\t<li><a href=\"https://www.google.com/url?q=https%3A%2F%2Fwww.meineschufa.de%2Findex.php%3Fsite%3D14_3&amp;sa=D&amp;sntz=1&amp;usg=AFrqEzdVep_lxFrSFKTy7yrwb7vFVRRmlA\">In person</a>&nbsp;/ same day / 24.95&euro;\r\n\t<ul>\r\n\t\t<li>Go to Postbank at Sch&ouml;nhauser Allee 79, 10439 Berlin. Opening times are: Mo-Fr 9am &ndash; 8pm, Sa 10am &ndash; 8pm, So closed.</li>\r\n\t\t<li>Copy of passport and registration in Germany needed</li>\r\n\t\t<li>Amount needs to be paid by direct debit from a German bank account (does not have to be yours)</li>\r\n\t</ul>\r\n\t</li>\r\n</ul>\r\n\r\n<p>3. A<strong> security deposit/ key money </strong>is required in most cases, in some cases no deposit is needed. Please always ask how much money is required.</p>\r\n\r\n<p>4. Attention: <strong>Provision</strong> &ndash; always ask if the flat is offered through an agent (provision required!)</p>\r\n\r\n<p>5. Attention: &ldquo;<strong>Warm&rdquo; or &ldquo;cold&rdquo; rent </strong>&ndash; Cold rent means <u>without</u> running costs &ndash; is mostly specified.</p>\r\n",
-        "keywords": "schufa,deposit,finding,apartment",
-        "position": 4
-      }
-    ],
-    "icon": "/icons/normal/missing.png"
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/9/normal_noun_43308_cc.png?1443641327"
   },
   {
     "position": 10,
@@ -281,42 +366,6 @@
         "position": 0
       }
     ],
-    "icon": "/icons/normal/missing.png"
-  },
-  {
-    "position": 11,
-    "name": "Library",
-    "language": "7e24acb850110f59",
-    "articles": [
-      {
-        "category": "Library",
-        "title": "Asylum Procedure BAMF",
-        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABIG4GjQoEKnfVCmnNnRiuGa/B_Asylverfahren/a_Prozess_%C3%9Cbersicht/Fertig/Ablauf_Asylverfaharen_BAMF/EN_Ablauf-Asylverfahren_BAMF_Jun2014.pdf?dl=0\">Download link</a></p>\r\n",
-        "keywords": "asylum procedure,bamf,asylum,asylum application",
-        "position": 0
-      },
-      {
-        "category": "Library",
-        "title": "Video accompanying booklet BAMF",
-        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AADcYYxcCVRXpJ-OMtF9CWJda/B_Asylverfahren/b_Film%20und%20Brosch%C3%BCre_BAMF_2014/Fertig/Begleitende%20Brosch%C3%BCre/EN_begleitbroschuere_BAMF.pdf?dl=0\">Download link</a></p>\r\n\r\n<p>See the referenced video <a href=\"https://www.bamf.de/SharedDocs/Videos/EN/BAMF/ablauf-asylverfahren.html?nn=1367522\">here</a></p>\r\n",
-        "keywords": "video,asylum procedure,asylum,asylum application",
-        "position": 1
-      },
-      {
-        "category": "Library",
-        "title": "Interview Helper",
-        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AAD0vjvZLfe5aVb98KOo6W0-a/B_Asylverfahren/c_Anh%C3%B6rung/Fertig/Info_Anh%C3%B6rung_verschSprachen/EN_Info_Anh%C3%B6rung_Asyl%26Migr%20e.V._2009.pdf?dl=0\">Download link</a></p>\r\n",
-        "keywords": "interview,helper,interview helper",
-        "position": 2
-      },
-      {
-        "category": "Library",
-        "title": "Dublin - what now?",
-        "content": "<p><a href=\"https://www.dropbox.com/sh/0foclo4r1xvt8v5/AABxsejrhYVXw_1lqzzn9abha/B_Asylverfahren/d_Dublin%20III/Fertig/Info_Dublin%20-%20was%20nun%3F_Fl%C3%BCchtlingsratBrand_verschSprachen_Aug2014/EN_Dublin-was%20nun%3F_Fl%C3%BCchtlingsratBrand_Aug2014.pdf?dl=0\">Download link</a></p>\r\n",
-        "keywords": "dublin,fingerprinted,double-fingerprint",
-        "position": 3
-      }
-    ],
-    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/23/normal_noun_1976_cc.png?1443631352"
+    "icon": "http://s3-eu-central-1.amazonaws.com/refhelp/ckeditor_assets/pictures/21/normal_noun_154621_cc.png?1443641632"
   }
 ]
