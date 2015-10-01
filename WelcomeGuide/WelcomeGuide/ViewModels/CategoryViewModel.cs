@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Globalization;
+using WelcomeGuide.Extensions;
 
 namespace WelcomeGuide
 {
@@ -36,10 +37,9 @@ namespace WelcomeGuide
 
 		public IEnumerable<ArticleViewModel> Search(string searchTerm) 
 		{
-			var compareInfo = CultureInfo.CurrentCulture.CompareInfo;
 			return Category.Articles
-				.Where ((article) => compareInfo.IndexOf(article.Keywords, searchTerm, CompareOptions.OrdinalIgnoreCase) >= 0 )
-				.Select((article) => new ArticleViewModel() { Article = article });
+				.Where ((a) => searchTerm.ContainedInAny(a.Keywords, a.Title, a.Content))
+				.Select((a) => new ArticleViewModel() { Article = a });
 		}
 	}
 }

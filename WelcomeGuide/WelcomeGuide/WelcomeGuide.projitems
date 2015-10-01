@@ -51,6 +51,7 @@
       <DependentUpon>SettingsPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)Helper\AsynchronousQueryExecutor.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Helper\Extensions.cs" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="$(MSBuildThisFileDirectory)Views\ArticleListPage.xaml">
