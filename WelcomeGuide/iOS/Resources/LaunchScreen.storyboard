@@ -43,7 +43,7 @@
         <image name="Default-568h.png" width="640" height="1136"/>
         <image name="Default-Portrait.png" width="768" height="1004"/>
         <image name="Icon-76.png" width="76" height="76"/>
-        <image name="Icon-Small.png" width="29" height="29"/>
+        <image name="Icon-Small.png" width="87" height="87"/>
         <image name="Icon-Small-40.png" width="40" height="40"/>
         <image name="search.png" width="88" height="90"/>
         <image name="settings.png" width="92" height="90"/>
