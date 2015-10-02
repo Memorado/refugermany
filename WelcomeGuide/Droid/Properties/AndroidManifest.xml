@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="1" android:versionName="1.0" package="com.memorado.welcomeGuide">
 	<uses-sdk android:minSdkVersion="15" android:targetSdkVersion="21" />
-	<application android:screenOrientation="portrait" android:label="RefuGermany">
+	<application android:screenOrientation="portrait" android:label="Refugermany" android:icon="@drawable/icon">
 		<activity android:name=".YourActivity" android:configChanges="orientation" android:screenOrientation="portrait" />
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
