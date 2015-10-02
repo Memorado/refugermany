@@ -11,7 +11,7 @@ using Android.Net;
 
 namespace WelcomeGuide.Droid
 {
-	[Activity (Theme = "@android:style/Theme.Holo.Light", ScreenOrientation = ScreenOrientation.Portrait, Label = "WelcomeGuide.Droid", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
+	[Activity (Theme = "@android:style/Theme.Holo.Light", ScreenOrientation = ScreenOrientation.Portrait, Label = "Refugermany", Icon = "@drawable/icon", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
 	public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsApplicationActivity
 	{
 		protected override void OnCreate (Bundle bundle)
