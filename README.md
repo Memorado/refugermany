@@ -17,6 +17,7 @@ This is why during the Memorado Hack Week, we sat down with the organizers of FR
  - Supports multiple languages (English, German and Arabic so far but more to come)
 
 ### The App
+# ![Screenshot 1](./Screenshots/Guide.png "Guide") # ![Screenshot 2](./Screenshots/Welcome.png "Welcome")
 This app can be downloaded in the following links:
  - [Download for Android from the Google Play Store](https://play.google.com/store/apps/details?id=com.memorado.welcomeGuide)
  - [Download for iOS from the Apple App Store](https://itunes.apple.com/de/app/refugermany-useful-guide-for/id1045437199
