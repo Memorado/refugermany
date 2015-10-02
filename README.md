@@ -1,4 +1,4 @@
-# ![App Icon](./WelcomeGuide/iOS/Resources/Icon-40.png?raw=true "Icon") Refugermany 
+# ![App Icon](./WelcomeGuide/iOS/Resources/Images.xcassets/AppIcons.appiconset/Icon-40.png "Icon") Refugermany 
 _A practical Guide to Germany for Asylum Seekers_
 
 This app is co-produced by a pro-bono project of [Memorado](http://www.memorado.com) and by [FREEDOMUS](http://www.freedomus.berlin/). It was one of the four apps developed as a part of **Memorado's Hack Week 2015** - A 4-day company-wide hackathon held in September 2015. The purpose was to create apps with that help Refugees in a simple way.
