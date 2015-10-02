@@ -5,4 +5,5 @@
 		<activity android:name=".YourActivity" android:configChanges="orientation" android:screenOrientation="portrait" />
 	</application>
 	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+	<uses-permission android:name="android.permission.INTERNET" />
 </manifest>

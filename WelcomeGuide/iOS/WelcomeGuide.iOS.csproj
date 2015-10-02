@@ -38,7 +38,7 @@
     <MtouchArch>ARMv7, ARM64</MtouchArch>
     <ConsolePause>false</ConsolePause>
     <CodesignKey>iPhone Distribution: Memorado GmbH (CQUCGHX6CM)</CodesignKey>
-    <CodesignProvision>d2741883-cd68-4cc1-b46d-0bdf312a3e91</CodesignProvision>
+    <CodesignProvision>ce07e084-f9a6-433d-b2f2-17357ed1e2f4</CodesignProvision>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|iPhoneSimulator' ">
     <DebugType>full</DebugType>

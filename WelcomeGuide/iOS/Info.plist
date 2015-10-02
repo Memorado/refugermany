@@ -50,5 +50,11 @@
 		<string>Icon-Small-40</string>
 		<string>Icon-Small-40@2x</string>
 	</array>
+	<key>NSAppTransportSecurity</key>
+<dict>
+  <!--Include to allow all connections (DANGER)-->
+  <key>NSAllowsArbitraryLoads</key>
+      <true/>
+</dict>
 </dict>
 </plist>
